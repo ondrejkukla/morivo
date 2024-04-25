@@ -1,12 +1,10 @@
-
 * {
   margin: 0px;
   padding: 0px;
 }
 
 :root {
-  font-family: 'Inter';
-  src: url("./Inter.ttf") format("ttf");
+  font-family: "Inter";
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -32,8 +30,6 @@ a:hover {
 }
 
 body {
-  font-family: 'Inter';
-  src: url("./Inter.ttf") format("ttf");
   margin: 0;
   display: flex;
   place-items: center;
