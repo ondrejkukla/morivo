@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 184px;
+    background-color: #0D0D0D;
+    z-index: 3;
+}
+
+header div.container {
+    height: 100%;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}

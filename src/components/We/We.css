@@ -1,0 +1,33 @@
+we {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 912px;
+    background-color: black;
+}
+
+we div.container {
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 124px;
+}
+
+.we-text-block {
+  min-width: 505px;  
+  height: fit-content;
+}
+
+.timeline-cont {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    right: 296px;
+}
+
+.whitespace {
+    height: 56px;
+}

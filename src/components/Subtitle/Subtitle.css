@@ -1,0 +1,20 @@
+.subtitle-white {
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #FFFFFF;
+    width: 483px;
+}
+
+.subtitle-black {
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #0D0D0D;
+    width: 483px;
+    text-align: center;
+    align-self: center;
+    margin-top: 106px;
+}

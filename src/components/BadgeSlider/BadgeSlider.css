@@ -1,0 +1,8 @@
+.faq-badges {
+    display: flex;
+    width: 2040px;
+    gap: 8px;
+    margin-bottom: 96px;
+    white-space: nowrap;
+    animation: 20s move_lr infinite linear;
+}

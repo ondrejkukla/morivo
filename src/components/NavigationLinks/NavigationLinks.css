@@ -1,0 +1,53 @@
+
+.grid-links {
+    display: grid;
+    grid-template-columns: repeat(3, 175px);
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+  }
+  
+  .cell1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0px;
+    margin: 0px;
+    
+    border-left: 1.6px solid white;
+    border-right: 1.6px solid white;
+    height: 100%;
+  }
+  
+  .cell2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+  }
+  
+  .cell3 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 0px;
+    margin: 0px;
+    
+    border-left: 1.6px solid white;
+    border-right: 1.6px solid white;
+    height: 100%;
+  }
+
+  div.width-90 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  

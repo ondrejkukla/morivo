@@ -1,0 +1,20 @@
+p.text {
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 24px;
+    text-align: start;
+}
+
+.white {
+    color: white;
+    font-weight: 400;
+}
+
+.black {
+    color: #0D0D0D;
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}

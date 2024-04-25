@@ -1,0 +1,42 @@
+benefits {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    background-color: white;
+}
+
+benefits div.container {
+    width: 1280px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 76px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.grid-benefits {
+    width: 1280px;
+    grid-template-columns: repeat(3, 426.6px);
+    grid-template-rows: repeat(3, 332px);
+    display: grid;
+    align-items: center;
+    border: none;
+    padding-bottom: 88px;
+}
+
+.title {
+    display: flex;
+    grid-area: 1 / 1 / 2 / 3;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    color: black;
+    border: none;
+    font-family: 'Inter';
+    font-size: 80px;
+    line-height: 96px;
+}
+

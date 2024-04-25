@@ -1,0 +1,54 @@
+faq {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    background-color: #CBBDEF;
+    overflow: hidden;
+}
+
+faq div.container {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.faq-title-width {
+    max-width: 400px;
+}
+
+.faq-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 73px;
+    margin-bottom: 77px;
+    
+}
+
+div.faq-distance {
+    min-height: 30px;
+    min-width: 50%;
+}
+
+.ppl-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.faq-badges {
+    display: flex;
+    width: 2040px;
+    gap: 8px;
+    margin-bottom: 96px;
+    white-space: nowrap;
+    animation: 20s move_lr infinite linear;
+}
