@@ -34,3 +34,7 @@ img.inner-card {
     font-weight: 400px;
     color: black;
 }
+
+.w-75 {
+    width: 75%;
+}

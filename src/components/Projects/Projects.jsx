@@ -17,11 +17,11 @@ function Projects() {
             <div className="container">
                 <Title name="Na čem pracujeme?" color="black" />
                 <div className="grid-projects">
-                    <div className="project-1"> <Feedback text={feedback1} signature={sign1} center="false" /></div>
+                    <div> <Feedback text={feedback1} signature={sign1} center="false" /></div>
                     <div> <Example img={natu} /></div>
                     <div className="project-3"> <Example img={mlsne_kornoutky} /></div>
                     <div> <Example img={alarm} /></div>
-                    <div className="project-5"> <Feedback text={feedback2} signature={sign2} center="true" /></div>
+                    <div> <Feedback text={feedback2} signature={sign2} center="true" /></div>
                     <div> <Example img={dron} /></div>
                     <div> <Example img={morivo} /></div>
                     <div> <Feedback text={feedback3} signature={sign3} center="true" /></div>

@@ -1,4 +1,4 @@
-const feedback1 = "Tým morivo nám za poslední dva roky spolupráce zajišťují veškerý design, UX/UI a tvorbu značek pro nás a naše klienty. Chtěl bych ocenit hlavně přístup, zkušenosti a často i vysokou míru trpělivosti při kooperaci s našim vývojářským týmem." + "\n" + "\n" + "Díky moc!";
+const feedback1 = "Tým morivo nám za poslední dva roky spolupráce zajišťují veškerý design, UX/UI a tvorbu značek pro nás a naše klienty. Chtěl bych ocenit hlavně přístup, zkušenosti a často i vysokou míru trpělivosti při kooperaci s našim vývojářským týmem."  + "\n" + "\n" + "Díky moc!";
 const sign1 = "Daniel Suchan - CTO of Blaze.codes";
 
 const feedback2 = "Předvánoční období je pro NATU vždy nejdůležitější část roku. K naší spokojenosti jsme v roce 2023 s Vojtou a jeho týmem měli všechny grafické podklady připravené včas a navíc jsme díky skvělým nápadům a kreativě vytvořili jednu z našich nejúspěšnějších kampaní za celou historii.";
@@ -25,7 +25,7 @@ const benefits_subtitle3 = "Rychlé doručení";
 const benefits_subtitle4 = "Unikátní a vaše";
 const benefits_subtitle5 = "Design se zaměřením na zákazníka";
 const benefits_subtitle6 = "Vždy máte přehled, co se zrovna děje";
-const benefits_subtitle7 = "Výkon, výkon, výkon!";
+const benefits_subtitle7 = "Výkon, výkon," + "\n" + "výkon!";
 
 const benefits_text1 = "Transparentně vždy dopředu víte, kolik bude práce či měsíc stát.";
 const benefits_text2 = "Komunikace je u nás v jakékoli situaci na prvním místě, jsme na telefonu nepřetržitě.";

@@ -15,13 +15,13 @@ function Footer() {
                 <div className="footer-buttons">
                     <Button type="header" link="https://calendly.com/morivo/schuzka"
                         text={
-                            <><img src={email} alt="Image" />
+                            <><img src={calendar} alt="Image" />
                                 Naplánovat online schůzku</>
                         } >
                     </ Button>
                     <Button type="header" link="mailto:vojtech@morivo.cz"
                         text={
-                            <><img src={calendar} alt="Image" />
+                            <><img src={email} alt="Image" />
                                 Kontaktovat emailem</>
                         } >
                     </ Button>
