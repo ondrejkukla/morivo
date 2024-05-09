@@ -11,7 +11,6 @@ benefits div.container {
     width: 1280px;
     height: fit-content;
     display: flex;
-    justify-content: center;
     padding-top: 76px;
     padding-left: 80px;
     padding-right: 80px;
@@ -22,7 +21,6 @@ benefits div.container {
     grid-template-columns: repeat(3, 426.6px);
     grid-template-rows: repeat(3, 332px);
     display: grid;
-    align-items: center;
     border: none;
     padding-bottom: 88px;
 }
@@ -38,4 +36,40 @@ benefits div.container {
     font-family: "Inter";
     font-size: 80px;
     line-height: 96px;
+}
+
+@media only screen and (max-width: 1440px) {
+    benefits div.container {
+        width: 1040px;
+    }
+
+    .grid-benefits {
+        width: 1040px;
+        grid-template-columns: repeat(3, 346.6px);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    benefits div.container {
+        width: 832px;
+    }
+
+    .grid-benefits {
+        width: 832px;
+        grid-template-columns: repeat(3, 277.3px);
+        grid-template-rows: repeat(3, 400px);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    benefits div.container {
+        width: 688px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .grid-benefits {
+        grid-template-columns: repeat(2, 306.6px);
+        grid-template-rows: repeat(5, 350px);
+    }
 }

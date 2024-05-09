@@ -17,8 +17,8 @@ we div.container {
 }
 
 .we-text-block {
-  min-width: 505px;  
-  height: fit-content;
+    min-width: 505px;
+    height: fit-content;
 }
 
 .timeline-cont {
@@ -30,4 +30,34 @@ we div.container {
 
 .whitespace {
     height: 56px;
+}
+
+@media only screen and (max-width: 1440px) {
+    we div.container {
+        width: 1040px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    we div.container {
+        width: 832px;
+    }
+
+    .timeline-cont {
+        right: 400px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    we div.container {
+        width: 688px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .timeline-cont {
+        right: 405px;
+    }
+
+    
 }

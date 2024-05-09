@@ -40,3 +40,43 @@ div.container > Button {
     position: relative;
     bottom: -82px;
 }
+
+@media only screen and (max-width: 1440px) {
+    projects div.container { width: 1040px}
+
+    .grid-projects {
+        grid-template-columns: repeat(3, 346px);
+        grid-template-rows: repeat(5, 346px);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    projects div.container { width: 832px}
+
+    .grid-projects {
+        grid-template-columns: repeat(2, 416px);
+        grid-template-rows: repeat(4, 416px);
+    }
+    
+    div.project-3 {
+        grid-area: 2 / 1 / 4 / 2;
+    }
+
+    div.project-7 {
+        grid-area: 4 / 1 / 5 / 3;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    projects div.container { 
+        max-width: 688px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .grid-projects {
+        grid-template-columns: repeat(2, 344px);
+        grid-template-rows: repeat(4, 344px);
+    }
+}
+

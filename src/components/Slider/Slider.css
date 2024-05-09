@@ -15,9 +15,9 @@ slider div.container {
 
 div.container-lr {
     white-space: nowrap;
-    width: 3436px;
+    width: 4562px;
     height: 114px;
-    animation: 33s move_lr infinite linear;
+    animation: 40s move_lr infinite linear;
 }
 
 div.container-rl {

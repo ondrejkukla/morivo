@@ -4,7 +4,7 @@ faq {
     width: 100%;
     margin: 0 auto;
     height: fit-content;
-    background-color: #CBBDEF;
+    background-color: #cbbdef;
     overflow: hidden;
 }
 
@@ -25,11 +25,11 @@ faq div.container {
 .faq-top {
     width: 100%;
     display: flex;
+    gap: 30px;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 73px;
     margin-bottom: 77px;
-    
 }
 
 div.faq-distance {
@@ -46,9 +46,34 @@ div.faq-distance {
 
 .faq-badges {
     display: flex;
-    width: 2040px;
+    min-width: 2040px;
     gap: 8px;
     margin-bottom: 96px;
     white-space: nowrap;
     animation: 20s move_lr infinite linear;
+}
+
+@media only screen and (max-width: 1440px) {
+    faq div.container {
+        width: 1040px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    faq div.container {
+        width: 832px;
+    }
+
+    .faq-top {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    faq div.container {
+        width: 688px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }

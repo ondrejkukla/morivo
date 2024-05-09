@@ -42,7 +42,10 @@
     position: relative;
     bottom: 47px;
     height: fit-content;
+    width: fit-content;
     border-radius: 8px;
+    margin: 0px;
+    padding: 6px 0px;
 
     background-color: white;
     color: black;
@@ -52,6 +55,10 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+}
+
+.example:hover {
+    border: 3.6px solid #665DEC;
 }
 
 button.header a {
@@ -88,3 +95,4 @@ button.example a {
     padding: 8px 16px;
     color: #0D0D0D;
 }
+

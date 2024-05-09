@@ -31,9 +31,9 @@ const benefits_text1 = "Transparentně vždy dopředu víte, kolik bude práce �
 const benefits_text2 = "Komunikace je u nás v jakékoli situaci na prvním místě, jsme na telefonu nepřetržitě.";
 const benefits_text3 = "Chápeme, že potřebujete fungovat dynamicky, po domluvě rádi doručíme výsledky expresně.";
 const benefits_text4 = "Každý design děláme na míru a je vždy 100% váš.";
-const benefits_text5 = "V naší práci se soustředíme na upoutání a práci s pozornosti vašich zákazníků.";
-const benefits_text6 = "A když si nejste jistí, můžete kdykoliv zavolat";
-const benefits_text7 = "Design neděláme pro dobrý pocit, zaměřujeme se především na ziskový aspekt designu.";
+const benefits_text5 = "V naši práci se soustředíme na výsledky. Zvýšení tržeb nebo posílení značky.";
+const benefits_text6 = "A když si nejste jistí, můžete kdykoliv zavolat.";
+const benefits_text7 = "V naši práci se soustředíme na výsledky. Zvýšení tržeb nebo posílení značky.";
 
 const accordion_data = [
     {
@@ -46,7 +46,7 @@ const accordion_data = [
     },
     {
         question: "Jak rychle dostanu design?",
-        answer: "Průměrně práci doručujeme během 2 pracovních dní nebo méně. Pokud je úkol komplexnější, bude to po domluvě trvat déle."
+        answer: "Práci doručujeme v termínu po domluvě. Menší vizuály většinou během 3 pracovních dní nebo méně. V případě potřeby jsme však zvyklí také na Ad-hoc zadání se zpracováním v den zadání."
     },
     {
         question: "Jak vám budu předávat zadání?",

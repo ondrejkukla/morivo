@@ -15,7 +15,7 @@ about div.container {
     flex-direction: column;
     padding-left: 80px;
     padding-right: 80px;
-    color: #0D0D0D;
+    color: #0d0d0d;
     /* overflow: hidden; */
 }
 
@@ -28,4 +28,24 @@ div.badges {
     gap: 8px;
     margin-top: 56px;
     margin-bottom: 96px;
+}
+
+@media only screen and (max-width: 1440px) {
+    about div.container {
+        width: 1040px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    about div.container {
+        width: 832px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    about div.container {
+        max-width: 688px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }

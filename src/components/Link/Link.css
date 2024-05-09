@@ -9,5 +9,6 @@ a.nav-link {
 a.nav-link:hover {
     color: #EBEAF4;
     cursor: pointer;
+    text-decoration: underline;
 }
 

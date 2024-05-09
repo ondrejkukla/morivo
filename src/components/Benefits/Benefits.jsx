@@ -39,6 +39,7 @@ function Benefits() {
                         subtitle={benefits_subtitle1}
                         text={benefits_text1}
                         img={sazba}
+                        
                     />
                     <Card
                         subtitle={benefits_subtitle2}

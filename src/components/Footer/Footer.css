@@ -4,7 +4,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     height: fit-content;
-    background-color: #0D0D0D;
+    background-color: #0d0d0d;
 }
 
 footer div.container {
@@ -30,3 +30,22 @@ footer div.container {
     max-width: 560px;
 }
 
+@media only screen and (max-width: 1440px) {
+    footer div.container {
+        width: 1040px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    footer div.container {
+        width: 832px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    footer div.container {
+        width: 688px;
+    }
+}

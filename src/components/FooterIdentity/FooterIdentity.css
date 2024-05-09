@@ -2,74 +2,102 @@
     display: grid;
     grid-template-rows: repeat(3, 142.2px);
     grid-template-columns: repeat(9, 142.2px);
-  }
-  
-  .footer-i {
+}
+
+.footer-i {
     border-radius: 50%;
-    background: #CBBDEF;
-  }
-  
-  .f-1 {
+    background: #cbbdef;
+}
+
+.f-1 {
     grid-area: 1 / 4 / 2 / 5;
-  }
-  
-  .f-2 {
+}
+
+.f-2 {
     grid-area: 1 / 5 / 2 / 6;
-  }
-  
-  .f-3 {
+}
+
+.f-3 {
     grid-area: 1 / 6 / 2 / 7;
-  }
-  
-  .f-4 {
+}
+
+.f-4 {
     grid-area: 1 / 7 / 2 / 8;
-  }
-  
-  .f-5 {
+}
+
+.f-5 {
     grid-area: 1 / 9 / 2 / 10;
-  }
-  
-  .f-6 {
+}
+
+.f-6 {
     grid-area: 2 / 5 / 3 / 6;
-  }
-  
-  .f-7 {
+}
+
+.f-7 {
     grid-area: 2 / 6 / 3 / 7;
-  }
-  
-  .f-8 {
+}
+
+.f-8 {
     grid-area: 2 / 7 / 3 / 8;
-  }
-  
-  .f-9 {
+}
+
+.f-9 {
     grid-area: 2 / 8 / 3 / 9;
-  }
-  
-  .f-10 {
+}
+
+.f-10 {
     grid-area: 3 / 1 / 4 / 2;
-  }
-  
-  .f-11 {
+}
+
+.f-11 {
     grid-area: 3 / 2 / 4 / 3;
-  }
-  
-  .f-12 {
+}
+
+.f-12 {
     grid-area: 3 / 3 / 4 / 4;
-  }
-  
-  .f-13 {
+}
+
+.f-13 {
     grid-area: 3 / 7 / 4 / 8;
-  }
-  
-  .copyright {
+}
+
+.copyright {
     display: flex;
     justify-content: center;
     align-items: center;
     grid-area: 3 / 4 / 4 / 7;
     color: white;
-    
-    font-family: 'inter';
+
+    font-family: "inter";
     font-size: 18px;
     font-weight: 400px;
     line-height: 24px;
-  }
+}
+
+@media only screen and (max-width: 1440px) {
+    .grid {
+        grid-template-rows: repeat(3, 133.3px);
+        grid-template-columns: repeat(9, 133.3px);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .grid {
+        grid-template-rows: repeat(3, 110.2px);
+        grid-template-columns: repeat(9, 110.2px);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .grid {
+        grid-template-rows: repeat(3, 85.2px);
+        grid-template-columns: repeat(9, 85.2px);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .grid {
+        grid-template-rows: repeat(3, 85.2px);
+        grid-template-columns: repeat(9, 85.2px);
+    }
+}
