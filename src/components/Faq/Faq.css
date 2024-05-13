@@ -97,6 +97,16 @@ div.faq-distance {
         padding-left: 40px;
         padding-right: 40px;
     }
+
+    .faq-title-width {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        justify-items: center;
+        justify-self: center;
+    }
 }
 
 @media only screen and (max-width: 576px) {
