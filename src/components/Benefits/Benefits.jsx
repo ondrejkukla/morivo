@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../Card/Card";
+import Title from "../Title/Title"
 import {
     benefits_subtitle1,
     benefits_subtitle2,
@@ -33,13 +34,13 @@ function Benefits() {
             <div className="container">
                 <div className="grid-benefits">
                     <div className="title">
-                        Vaše benefity <br /> ze spolupráce
+                        <Title color="black" name="Vaše benefity ze spolupráce" />
                     </div>
                     <Card
                         subtitle={benefits_subtitle1}
                         text={benefits_text1}
                         img={sazba}
-                        
+
                     />
                     <Card
                         subtitle={benefits_subtitle2}

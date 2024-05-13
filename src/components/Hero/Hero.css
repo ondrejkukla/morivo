@@ -61,15 +61,15 @@ div.identity {
 
 @media only screen and (max-width: 992px) {
     hero div.container {
-        height: 735px;
+        height: 685px;
         max-width: 688px;
         padding-left: 40px;
         padding-right: 40px;
     }
 
     div.identity {
-        right: 568px;
-        top: 135px;
+        right: 448px;
+        top: 205px;
     }
 
     div.left {
@@ -79,4 +79,54 @@ div.identity {
     div.left h1 {
         width: 650px;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    hero div.container {
+        height: 575px;
+        max-width: 496px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    div.identity {
+        right: 440px;
+        top: 134px;
+    }
+
+    div.left {
+        width: 496px;
+    }
+
+    div.left Button.header {
+        display: none;
+    }
+
+    div.left h1 {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    hero div.container {
+        height: 415px;
+        max-width: 337px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+
+    div.identity {
+        right: 290px;
+        top: 134px;
+    }
+
+    div.left {
+        width: 350px;
+    }
+
+    div.left h1 {
+        width: 350px;
+    }
+
+
 }

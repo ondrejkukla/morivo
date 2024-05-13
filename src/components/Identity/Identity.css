@@ -178,3 +178,24 @@
         grid-template-rows: repeat(7, 150px);
     }
 }
+
+@media only screen and (max-width: 992px) {
+    .grid-container {
+        grid-template-columns: repeat(5, 120px);
+        grid-template-rows: repeat(6, 120px);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(5, 110px);
+        grid-template-rows: repeat(6, 110px);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .grid-container {
+        grid-template-columns: repeat(5, 70px);
+        grid-template-rows: repeat(6, 70px);
+    }
+}

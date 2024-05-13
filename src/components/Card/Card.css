@@ -50,3 +50,21 @@ img.inner-card {
         width: 74%;
     }
 }
+
+@media only screen and (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+
+    img.inner-card {
+        top: 0px;
+    }
+
+    .subtitle {
+        top: 30px;
+    }
+
+    .card-text {
+        top: 70px;
+    }
+}

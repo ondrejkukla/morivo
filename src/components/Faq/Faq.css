@@ -64,15 +64,44 @@ div.faq-distance {
         width: 832px;
     }
 
+    .faq-title-width {
+        max-width: 100%;
+    }
+
     .faq-top {
         flex-direction: column;
         align-items: center;
+    }
+
+    .ppl-image {
+        margin-bottom: 72px;
+    }
+
+    .faq-badges {
+        margin-bottom: 72px;
     }
 }
 
 @media only screen and (max-width: 992px) {
     faq div.container {
         width: 688px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    faq div.container {
+        width: 496px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    faq div.container {
+        width: 496px;
         padding-left: 40px;
         padding-right: 40px;
     }

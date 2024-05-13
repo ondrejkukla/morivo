@@ -15,11 +15,14 @@ function Projects() {
     return (
         <projects id="projects">
             <div className="container">
-                <Title name="Na čem pracujeme?" color="black" />
+                <div className="projects-title">
+                    <Title name="Na čem pracujeme?" color="black" />
+                </div>
                 <div className="grid-projects">
                     <div> <Feedback text={feedback1} signature={sign1} center="false" /></div>
                     <div> <Example img={natu} /></div>
                     <div className="project-3"> <Example img={mlsne_kornoutky} /></div>
+                    <div className="project-3-small"> <Example img={mlsne_kornoutky} /></div>
                     <div> <Example img={alarm} /></div>
                     <div> <Feedback text={feedback2} signature={sign2} center="true" /></div>
                     <div> <Example img={dron} /></div>
@@ -27,6 +30,7 @@ function Projects() {
                     <div> <Feedback text={feedback3} signature={sign3} center="true" /></div>
                     <div> <Example img={luno_yoga} /></div>
                     <div className="project-7"> <Example img={pekarstvi_makovec} /></div>
+                    <div className="project-7-small"> <Example img={pekarstvi_makovec} /></div>
                     <div> <Example img={frankies} /></div>
                     <div> <Example img={plysak} /></div>
                     <div> <Example img={eliterails} /></div>

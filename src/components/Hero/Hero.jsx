@@ -11,7 +11,7 @@ function Hero() {
                 <div className="left">
                     <Button type="status" text="● Nyní k dispozici" />
                     <Title name="Tvoříme výkonnostní grafický design" color="white" />
-                    <Button type="header" text="Na čem pracujeme" link="#projects" />
+                    <Button className="btn-main" type="header" text="Na čem pracujeme" link="#projects" />
                 </div>
                 <div className="identity">
                     <Identity />

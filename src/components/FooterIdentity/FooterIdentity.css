@@ -79,6 +79,10 @@
         grid-template-rows: repeat(3, 133.3px);
         grid-template-columns: repeat(9, 133.3px);
     }
+
+    footer div.container {
+        width: 1080px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -90,14 +94,26 @@
 
 @media only screen and (max-width: 992px) {
     .grid {
-        grid-template-rows: repeat(3, 85.2px);
-        grid-template-columns: repeat(9, 85.2px);
+        grid-template-rows: repeat(3, 94.2px);
+        grid-template-columns: repeat(9, 94.2px);
+        
     }
 }
 
 @media only screen and (max-width: 767px) {
     .grid {
-        grid-template-rows: repeat(3, 85.2px);
-        grid-template-columns: repeat(9, 85.2px);
+        grid-template-rows: repeat(3, 67.5px);
+        grid-template-columns: repeat(9, 67.5px);
+    }
+
+    .footer-title {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 586px) {
+    .grid {
+        grid-template-rows: repeat(3, 65.1px);
+        grid-template-columns: repeat(9, 65.1px);
     }
 }

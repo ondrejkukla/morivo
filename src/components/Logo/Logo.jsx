@@ -1,10 +1,11 @@
 import React from "react";
 import { morivo } from "../../assets/header/";
+import "./Logo.css"
 
 function Header() {
   return (
-    <div>
-      <img src={morivo} width={216} height={56} alt="morivo" />
+    <div className="logo-container">
+      <img className="logo" src={morivo} alt="morivo" width={216} height={64}/>
     </div>
   );
 }

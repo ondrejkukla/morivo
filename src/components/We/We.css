@@ -3,7 +3,7 @@ we {
     justify-content: center;
     width: 100%;
     margin: 0 auto;
-    height: 912px;
+    min-height: 912px;
     background-color: black;
 }
 
@@ -13,12 +13,22 @@ we div.container {
     width: 1280px;
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 124px;
+    padding-top: 96px;
+    padding-bottom: 48px;
 }
 
 .we-text-block {
+    display: flex;
+    flex-direction: column;
     min-width: 505px;
     height: fit-content;
+    gap: 28px;
+}
+
+div.we-text-block>p {
+    width: 88%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .timeline-cont {
@@ -29,7 +39,7 @@ we div.container {
 }
 
 .whitespace {
-    height: 56px;
+    height: 28px;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -49,15 +59,57 @@ we div.container {
 }
 
 @media only screen and (max-width: 992px) {
+    .timeline-cont {
+        position: static;
+    }
+
+    .we-text-block {
+        text-align: center;
+        width: 100%;
+    }
+
+    div.we-text-block>p {
+        width: 100%;
+    }
+    
     we div.container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 688px;
         padding-left: 40px;
         padding-right: 40px;
     }
 
-    .timeline-cont {
-        right: 405px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    we div.container {
+        width: 496px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
+}
+
+@media only screen and (max-width: 576px) {
     
+    we div.container {
+        width: 337px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+
+    .whitespace {
+        height: 0px;
+    }
+
+    .we-text-block {
+        min-width: 337px;
+    }
+
+    .timeline-cont {
+        margin-top: -50px;
+    }
 }

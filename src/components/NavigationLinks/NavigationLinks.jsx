@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "../Link/Link";
 import Button from "../Button/Button";
-import "./NavigationLinks.css"
+import Dropdown from "../Dropdown/Dropdown";
+import "./NavigationLinks.css";
 
 function NavigationLinks() {
     return (
@@ -9,15 +10,18 @@ function NavigationLinks() {
             <div className="cell1">
                 <div className="width-90">
                     <Link text="Práce" link="#projects" />
-                    <Link text="O nás" link="#we"/>
+                    <Link text="O nás" link="#we" />
                 </div>
-                
+
             </div>
             <div className="cell2">
-                <Link text="Proč morivo?" link="#benefits"/>
+                <Link text="Proč morivo?" link="#benefits" />
             </div>
             <div className="cell3">
-                <Button type="header" text="Kontaktovat" link="#footer"/>
+                <Button type="header" text="Kontaktovat" link="#footer" />
+                <div className="dropdown">
+                    <Dropdown />
+                </div>
             </div>
         </div>
     )

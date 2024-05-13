@@ -7,10 +7,13 @@
     height: 100%;
 }
 
-div>p {
+div>p.text {
     width: 88%;
-    margin: 0px;
-    padding: 0px;
+
+}
+
+div>p.signature {
+    width: 88%;
 }
 
 .text {
@@ -32,5 +35,15 @@ div>p {
 }
 
 .center {
-    margin-left: 7.5%;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    div>p.text {
+        width: 100%;
+    }
+    div>p.signature {
+        width: 100%;
+    }
+
 }

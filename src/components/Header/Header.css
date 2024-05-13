@@ -34,9 +34,37 @@ header div.container {
 }
 
 @media only screen and (max-width: 992px) {
+    header {
+        height: 144px;
+    }
+
     header div.container {
         max-width: 688px;
         padding-left: 40px;
         padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 124px;
+    }
+
+    header div.container {
+        max-width: 496px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header {
+        height: 96px;
+    }
+
+    header div.container {
+        max-width: 337px;
+        padding-left: 23px;
+        padding-right: 23px;
     }
 }

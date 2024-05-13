@@ -5,7 +5,6 @@ about {
     margin: 0 auto;
     height: fit-content;
     background-color: white;
-    /* overflow: hidden; */
 }
 
 about div.container {
@@ -15,8 +14,8 @@ about div.container {
     flex-direction: column;
     padding-left: 80px;
     padding-right: 80px;
+    padding-top: 106px;
     color: #0d0d0d;
-    /* overflow: hidden; */
 }
 
 div.badges {
@@ -47,5 +46,40 @@ div.badges {
         max-width: 688px;
         padding-left: 40px;
         padding-right: 40px;
+    }
+
+    div.badges {
+        margin-bottom: 48px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    about div.container {
+        max-width: 496px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 58px;
+    }
+
+    div.badges {
+        margin-bottom: 48px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    about div.container {
+        max-width: 337px;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 40px;
+    }
+
+    div.badges {
+        margin-bottom: 48px;
+        min-width: 383px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }

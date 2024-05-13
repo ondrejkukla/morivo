@@ -20,6 +20,7 @@ benefits div.container {
     width: 1280px;
     grid-template-columns: repeat(3, 426.6px);
     grid-template-rows: repeat(3, 332px);
+    align-items: center;
     display: grid;
     border: none;
     padding-bottom: 88px;
@@ -34,8 +35,6 @@ benefits div.container {
     color: black;
     border: none;
     font-family: "Inter";
-    font-size: 80px;
-    line-height: 96px;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -52,12 +51,24 @@ benefits div.container {
 @media only screen and (max-width: 1200px) {
     benefits div.container {
         width: 832px;
+        padding-top: 0px;
+    }
+
+    .title {
+        grid-area: 1 / 1 / 2 / 4;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+        width: 75%;
     }
 
     .grid-benefits {
         width: 832px;
+        justify-items: center;
         grid-template-columns: repeat(3, 277.3px);
-        grid-template-rows: repeat(3, 400px);
+        grid-template-rows: repeat(4, 400px);
     }
 }
 
@@ -66,10 +77,64 @@ benefits div.container {
         width: 688px;
         padding-left: 40px;
         padding-right: 40px;
+        padding-top: 0px;
+    }
+
+    .title {
+        grid-area: 1 / 1 / 2 / 3;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+        width: 80%;
     }
 
     .grid-benefits {
-        grid-template-columns: repeat(2, 306.6px);
-        grid-template-rows: repeat(5, 350px);
+        grid-template-columns: repeat(2, 344px);
+        grid-template-rows: repeat(5, 330px);
+        justify-items: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    benefits div.container {
+        width: 496px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 0px;
+    }
+
+    .title {
+        grid-area: 1 / 1 / 2 / 3;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .grid-benefits {
+        grid-template-columns: repeat(2, 248px);
+        grid-template-rows: repeat(5, 415px);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    benefits div.container {
+        width: 337px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+
+    .grid-benefits {
+        grid-template-columns: repeat(1, 337px);
+        grid-template-rows: repeat(8, 300px);
+        padding-bottom: 24px;
+    }
+
+    .title {
+        grid-area: 1 / 1 / 2 / 2;
     }
 }
