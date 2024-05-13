@@ -99,10 +99,10 @@ div.faq-distance {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
     faq div.container {
-        width: 496px;
-        padding-left: 40px;
-        padding-right: 40px;
+        width: 337px;
+        padding-left: 23px;
+        padding-right: 23px;
     }
 }

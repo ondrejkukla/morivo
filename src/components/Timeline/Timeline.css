@@ -238,5 +238,58 @@ div.item {
     .grid-timeline {
         grid-template-columns: repeat(2, 190px);
         grid-template-rows: repeat(7, 190px);
+        min-height: 1350px;
+    }
+
+    .item1 {
+        left: 23px;
+    }
+
+    .item2 {
+        right: 23px;
+    }
+
+    .item3 {
+        left: 23px;
+    }
+
+    .item4 {
+        right: 23px;
+    }
+
+    .item5 {
+        left: 23px;
+    }
+
+    .item6 {
+        right: 23px;
+    }
+
+    .line2 {
+        top: 40px;
+        left: 10px;
+        grid-area: 2 / 2 / 3 / 2;
+        margin: 0px;
+        margin-left: -50px;
+        margin-top: -50px;
+    }
+
+    .line3 {
+        grid-area: 3 / 2 / 4 / 2;
+        left: -15px;
+        top: 215px;
+        margin: 0px;
+        margin-left: -50px;
+        margin-top: -50px;
+
+    }
+
+    .line4 {
+        top: 40px;
+        left: -50px;
+        grid-area: 6 / 2 / 7 / 2;
+        margin: 0px;
+        margin-top: -50px;
+        margin-right: -50px;
     }
 }

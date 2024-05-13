@@ -78,8 +78,8 @@ div.badges {
 
     div.badges {
         margin-bottom: 48px;
-        min-width: 383px;
-        padding-left: 0px;
-        padding-right: 0px;
+        min-width: 337px;
+        padding-left: 23px;
+        padding-right: 23px;
     }
 }

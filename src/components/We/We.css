@@ -36,6 +36,7 @@ div.we-text-block>p {
     width: fit-content;
     height: fit-content;
     right: 296px;
+    overflow: hidden;
 }
 
 .whitespace {
