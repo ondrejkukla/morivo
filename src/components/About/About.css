@@ -16,6 +16,7 @@ about div.container {
     padding-right: 80px;
     padding-top: 106px;
     color: #0d0d0d;
+    overflow: hidden;
 }
 
 div.badges {

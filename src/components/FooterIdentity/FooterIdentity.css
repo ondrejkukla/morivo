@@ -113,8 +113,8 @@
 
 @media only screen and (max-width: 586px) {
     .grid {
-        grid-template-rows: repeat(3, 59px);
-        grid-template-columns: repeat(9, 59px);
+        grid-template-rows: repeat(3, 67px);
+        grid-template-columns: repeat(9, 67px);
     }
 
     .copyright {
