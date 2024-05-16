@@ -96,3 +96,8 @@ button.example a {
     color: #0D0D0D;
 }
 
+@media only screen and (max-width: 768px) {
+    .example {
+        bottom: 0px;
+    }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "../Link/Link";
 import Button from "../Button/Button";
-import Dropdown from "../Dropdown/Dropdown";
+import Menu from "../Menu/Menu";
 import "./NavigationLinks.css";
 
 function NavigationLinks() {
@@ -20,9 +20,12 @@ function NavigationLinks() {
             <div className="cell3">
                 <Button type="header" text="Kontaktovat" link="#footer" />
                 <div className="dropdown">
-                    <Dropdown />
+                    <Menu />
                 </div>
             </div>
+            <div className="dropdown">
+                    <Menu />
+                </div>
         </div>
     )
 }

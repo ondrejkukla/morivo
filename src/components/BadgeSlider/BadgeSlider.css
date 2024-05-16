@@ -1,8 +1,41 @@
-.faq-badges {
+div.slider-big {
     display: flex;
     width: 2040px;
     gap: 8px;
     margin-bottom: 96px;
     white-space: nowrap;
     animation: 20s move_lr infinite linear;
+}
+
+div.slider-small-l {
+    display: none;
+    width: 854px;
+    gap: 8px;
+    margin-bottom: 32px;
+    white-space: nowrap;
+    animation: 12s move_rl infinite linear;
+}
+
+div.slider-small-r {
+    display: none;
+    width: 800px;
+    gap: 8px;
+    margin-bottom: 48px;
+    white-space: nowrap;
+    animation: 12s move_lr infinite linear;
+}
+
+
+@media only screen and (max-width: 768px) {
+    div.slider-big {
+        display: none;
+    }
+
+    div.slider-small-l {
+        display: flex;
+    }
+
+    div.slider-small-r {
+        display: flex;
+    }
 }

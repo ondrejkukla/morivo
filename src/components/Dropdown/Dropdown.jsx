@@ -1,14 +1,17 @@
-import React from "react";
-import {menu} from "../../assets/header/index.js";
+import React from 'react';
+import './Dropdown.css'; // Create and import a CSS file for styling
 
-function Dropdown() {
+function Menu() {
     return (
-        <div>
-            <a href="">
-                <img src={menu} alt="" />
-            </a>
+        <div className="menu">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
         </div>
     );
 }
 
-export default Dropdown;
+export default Menu;

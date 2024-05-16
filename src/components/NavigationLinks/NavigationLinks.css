@@ -97,7 +97,7 @@ div.width-90 {
         display: none;
     }
 
-    div.cell3 Button {
+    div.cell3 > Button {
         display: none;
     }
 

@@ -38,7 +38,7 @@ div.identity {
 @media only screen and (max-width: 1440px) {
     div.identity {
         right: 360px;
-        top: 40px;
+        top: -112px;
     }
 
     hero div.container {
@@ -50,7 +50,7 @@ div.identity {
 @media only screen and (max-width: 1200px) {
     div.identity {
         right: 568px;
-        top: 40px;
+        top: -112px;
     }
 
     hero div.container {
@@ -61,15 +61,15 @@ div.identity {
 
 @media only screen and (max-width: 992px) {
     hero div.container {
-        height: 685px;
+        height: 629px;
         max-width: 688px;
         padding-left: 40px;
         padding-right: 40px;
     }
 
     div.identity {
-        right: 448px;
-        top: 205px;
+        right: 442px;
+        top: -92px;
     }
 
     div.left {
@@ -83,28 +83,29 @@ div.identity {
 
 @media only screen and (max-width: 768px) {
     hero div.container {
-        height: 575px;
+        height: 510px;
         max-width: 496px;
         padding-left: 40px;
         padding-right: 40px;
     }
 
     div.identity {
-        right: 440px;
-        top: 134px;
+        right: 334px;
+        top: -40px;
     }
 
     div.left {
         width: 496px;
     }
 
+    div.left h1 {
+        width: 390px;
+    }
+
     div.left Button.header {
         display: none;
     }
 
-    div.left h1 {
-        width: 600px;
-    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -116,8 +117,8 @@ div.identity {
     }
 
     div.identity {
-        right: 290px;
-        top: 134px;
+        right: 293px;
+        top: -5px;
     }
 
     div.left {

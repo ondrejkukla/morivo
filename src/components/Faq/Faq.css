@@ -5,7 +5,7 @@ faq {
     margin: 0 auto;
     height: fit-content;
     background-color: #cbbdef;
-    overflow: hidden;
+/*     overflow: hidden; */
 }
 
 faq div.container {
