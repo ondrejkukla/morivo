@@ -50,3 +50,9 @@ img.slider {
         transform: translateX(-100%);
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .container-lr {
+        height: 90px;
+    }
+}

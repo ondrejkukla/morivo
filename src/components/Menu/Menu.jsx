@@ -1,21 +1,46 @@
-import React, {useState} from "react";
-import {menu} from "../../assets/header/index.js";
+import React from "react";
+import { useRef } from "react";
+import { menu } from "../../assets/header/index.js";
 import "./Menu.css";
 
 function Menu() {
+    const menuRef = useRef();
 
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-    }
+    const showDropdown = () => {
+        menuRef.current.slassList.toggle("responsive_menu")
+    };
 
     return (
         <div>
-            <button className="hamburger" onClick={toggleMenu}>
-            <img src={menu} alt="Menu" />
+            <button onClick={showDropdown}>
+                <img className="menu-icon" src={menu} alt="Menu" />
             </button>
-            {isMenuOpen && <Menu />}
+            <div className="menu" ref={menuRef}>
+                <div className="dropdown">
+                    <div className="icons">
+                        <button className="close-icon" onClick={showDropdown}>x</button>
+                        <a className="dropdown-item">
+                            <span>Práce</span>
+                            <span>sipka</span>
+                        </a>
+                        <a className="dropdown-item">
+                            <span>Práce</span>
+                            <span>sipka</span>
+                        </a>
+                        <a className="dropdown-item">
+                            <span>Práce</span>
+                            <span>sipka</span>
+                        </a>
+                        <a className="dropdown-item">
+                            <span>Práce</span>
+                            <span>sipka</span>
+                        </a>
+                    </div>
+                    <div className="dropdown-logo">
+                        LOGO
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
