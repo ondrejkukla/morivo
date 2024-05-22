@@ -1,3 +1,5 @@
+
+
 const feedback1 = "Tým morivo nám za poslední dva roky spolupráce zajišťují veškerý design, UX/UI a tvorbu značek pro nás a naše klienty. Chtěl bych ocenit hlavně přístup, zkušenosti a často i vysokou míru trpělivosti při kooperaci s našim vývojářským týmem."  + "\n" + "\n" + "Díky moc!";
 const sign1 = "Daniel Suchan - CTO of Blaze.codes";
 
