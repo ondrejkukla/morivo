@@ -19,10 +19,10 @@ function Navbar() {
             <div className="container">
                 <Logo></Logo>
                 <nav ref={navRef}>
-                    <a className="a-dropdown" href="/#">Práce</a>
-                    <a className="a-dropdown" href="/#">O nás</a>
-                    <a className="a-dropdown" href="/#">Proč morivo?</a>
-                    <a className="a-dropdown" href="/#">About me</a>
+                    <a className="a-dropdown" href="#projects" onClick={showNavbar}>Práce</a>
+                    <a className="a-dropdown" href="#we" onClick={showNavbar}>O nás</a>
+                    <a className="a-dropdown" href="#benefits" onClick={showNavbar}>Proč morivo?</a>
+                    <a className="a-dropdown" href="#footer" onClick={showNavbar}>Kontaktovat</a>
                     <NavigationLinks />
                     <div className="logo-dropdown">
                         <Logo />
