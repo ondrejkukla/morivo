@@ -36,7 +36,7 @@ function Button(props) {
 
     return (
         // eslint-disable-next-line react/prop-types
-        <button className={props.type}>
+        <button className={props.type} onClick={props.onClick}>
             <a href={props.link} target="_blank" rel="noreferrer">{props.text} </a>
         </button>
     )

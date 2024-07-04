@@ -1,0 +1,35 @@
+.modal-overlay {
+    display: flex;
+    justify-content: center;
+    border-radius: 51px;
+    position:absolute;
+    left: 25%px;
+    top: 1683px;
+    z-index: 5;
+    
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    width: 1280px;
+    height: 1707px;
+    border-radius: 51px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 688px;
+    right: 0px;
+    padding: 8px 16px;
+
+    background-color: #665DEC;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
