@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://ondrejkukla.github.io/morivo/homepage/",
+  "homepage": "https://ondrejkukla.github.io/morivo/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
