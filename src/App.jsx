@@ -11,8 +11,8 @@ function App() {
     <Router basename="/morivo">
       <Navbar />
       <Routes>
-        <Route exact path="/morivo" element={<MainPage />} />
-        <Route exact path="/morivo/subpage" element={<SubPage />} />
+        <Route exact path="/" element={<MainPage />} />
+        <Route path="/subpage" element={<SubPage />} />
       </Routes>
       <Footer />
     </Router>
