@@ -8,11 +8,11 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/morivo">
       <Navbar />
       <Routes>
-        <Route exact path="/homepage" element={<MainPage />} />
-        <Route exact path="/homepage/subpage" element={<SubPage />} />
+        <Route exact path="/morivo" element={<MainPage />} />
+        <Route exact path="/morivo/subpage" element={<SubPage />} />
       </Routes>
       <Footer />
     </Router>
