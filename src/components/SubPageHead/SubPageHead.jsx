@@ -6,7 +6,7 @@ function SubPageHead() {
   return (
     <subhead>
         <div className='subpage-head'>
-            <Link className='link-subpage' to="/morivo">← Vrátit se na hlavní stránku</Link>
+            <Link className='link-subpage' to="/">← Vrátit se na hlavní stránku</Link>
         </div>
     </subhead>
   );
