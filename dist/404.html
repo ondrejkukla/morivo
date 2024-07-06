@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Page Not Found</title>
-    <script type="text/javascript">
-      var pathname = window.location.pathname;
-      var redirectUrl = window.location.origin + "/morivo" + pathname.substring(window.location.pathname.indexOf("/morivo") + "/morivo".length);
-      window.location.replace(redirectUrl);
+    <meta http-equiv="refresh" content="0; URL=/morivo/" />
+    <script>
+      // Get the current path without the base
+      var path = location.pathname.replace('/morivo/', '');
+      // Redirect to the correct path under /morivo/
+      var redirect = '/morivo/' + path + location.search + location.hash;
+      window.location.replace(redirect);
     </script>
   </head>
-  <body>
-    <h1>Page Not Found</h1>
-    <p>Redirecting...</p>
-  </body>
+  <body></body>
 </html>
