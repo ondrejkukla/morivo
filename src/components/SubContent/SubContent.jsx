@@ -11,7 +11,7 @@ function SubContent() {
                 <iframe src="https://drive.google.com/file/u/0/d/1T-039Hetoe7cZD17huWKkGjfyjVNjDHS/view" frameborder="0"></iframe>
             </div>
             <div className="subcontent-button">
-                <Button type="header" text="Vrátit se na hlavní stránku" link="/morivo" />
+                <Button type="header" text="Vrátit se na hlavní stránku" link="/" />
             </div>
             <div className="subcontent-businessCard">
                 <BusinessCard/>
