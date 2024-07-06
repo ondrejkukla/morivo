@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './components/MainPage/MainPage';
 import SubPage from './components/SubPage/SubPage';
 import Footer from './components/Footer/Footer';
@@ -8,11 +8,11 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/morivo">
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/subpage" element={<SubPage />} />
+        <Route path="subpage" element={<SubPage />} />
       </Routes>
       <Footer />
     </Router>
