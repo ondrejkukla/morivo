@@ -1,0 +1,42 @@
+subexamples {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #CBBDEF;
+}
+
+subexamples div.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.subexample-title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.subexaples-grid {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 56px;
+}
+
+.subpage-example1 {
+    width: 33%;
+}
+
+.subpage-example2 {
+    width: 33%;
+}
+
+.subpage-example3 {
+    width: 33%;
+}
