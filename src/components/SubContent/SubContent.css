@@ -10,7 +10,7 @@ div.subcontent-container {
 }
 
 div.subcontent-modal {
-    height: 2800px;
+    height: 1400px;
     width: 1280px;
     display: flex;
     flex-direction: row;
@@ -25,13 +25,14 @@ div.subcontent-modal {
 }
 
 iframe {
-    width: 1280px;
+    width: 2000%;
     height: 2800px;
+    position: relative;
 }
 
 .subcontent-button {
     position: relative;
-    top: -1600px;
+    top: -200px;
     left: 515px;
     z-index: 5;
 }

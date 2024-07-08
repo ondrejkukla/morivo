@@ -2,10 +2,10 @@ import { useRef } from "react";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 import Logo from "../Logo/Logo";
-import NavigationLinks from "../NavigationLinks/NavigationLinks";
-import "./Navbar.css";
+import SubNavLinks from "../SubNavLinks/SubNavLinks";
+import "./SubNavbar.css";
 
-function Navbar({ isSubPage }) {
+function Navbar() {
     const navRef = useRef();
 
     const showNavbar = () => {
@@ -23,7 +23,7 @@ function Navbar({ isSubPage }) {
                     <a className="a-dropdown" href="#we" onClick={showNavbar}>O nás</a>
                     <a className="a-dropdown" href="#benefits" onClick={showNavbar}>Proč morivo?</a>
                     <a className="a-dropdown" href="#footer" onClick={showNavbar}>Kontaktovat</a>
-                    <NavigationLinks isSubPage={isSubPage} />
+                    <SubNavLinks />
                     <div className="logo-dropdown">
                         <Logo />
                     </div>
