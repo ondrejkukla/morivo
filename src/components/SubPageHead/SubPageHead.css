@@ -18,5 +18,39 @@ div.subpage-head {
     align-items: start;
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 60px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 1440px) {
+    div.subpage-head {
+        max-width: 1040px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    div.subpage-head {
+        max-width: 832px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    div.subpage-head {
+        max-width: 688px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.subpage-head {
+        max-width: 496px;
+    }
+
+    div.subpage-head {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    div.subpage-head {
+        max-width: 337px;
+    }
 }

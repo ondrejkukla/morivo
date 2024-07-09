@@ -8,7 +8,7 @@ function SubContent() {
     <subcontent>
         <div className='subcontent-container'>
             <div className='subcontent-modal'>
-                <iframe src="https://drive.google.com/file/d/1T-039Hetoe7cZD17huWKkGjfyjVNjDHS/preview" frameborder="0"></iframe>
+                <iframe src="https://drive.google.com/file/d/1T-039Hetoe7cZD17huWKkGjfyjVNjDHS/preview" frameBorder="0"></iframe>
             </div>
             <div className="subcontent-button">
                 <Button type="header" text="Vrátit se na hlavní stránku" link="/" />

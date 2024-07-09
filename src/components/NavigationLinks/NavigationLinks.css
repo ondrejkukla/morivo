@@ -52,6 +52,7 @@ div.width-90 {
 
 .hamburger-icon {
     display: none;
+    color: #665DEC;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -59,9 +60,10 @@ div.width-90 {
         border-left: 0px solid transparent;
         border-right: 0px solid transparent;
     }
-    
+
     .cell3 {
         border-left: 0px solid transparent;
+        border-right: 1.6px solid white;
     }
 }
 
