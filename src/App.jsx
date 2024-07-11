@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './components/MainPage/MainPage';
 import SubPage from './components/SubPage/SubPage';
 import Footer from './components/Footer/Footer';
@@ -12,6 +12,8 @@ import Benefits from './components/Benefits/Benefits';
 import Faq from './components/Faq/Faq';
 import Navbar from './components/Navbar/Navbar';
 import SubNavbar from './components/SubNavbar/SubNavbar';
+import SubContent from './components/SubContent/SubContent';
+import SubExamples from './components/SubExamples/SubExamples';
 import useSmoothScroll from './hooks/useSmoothScroll';
 import './App.css';
 
@@ -26,29 +28,23 @@ function App() {
 }
 
 function MainLayout() {
-  const location = useLocation();
-
-  // Check if current route is the main page (/test/)
-  const isMainPage = location.pathname === '/test/';
 
   return (
     <>
-      {/* Render Navbar only on the main page */}
-      {isMainPage && <Navbar />}
-
       <Routes>
         {/* Main Layout */}
         <Route
           path="/test/*"
           element={
             <>
-              {isMainPage && <Hero />}
-              {isMainPage && <Slider />}
-              {isMainPage && <About />}
-              {isMainPage && <Projects />}
-              {isMainPage && <We />}
-              {isMainPage && <Benefits />}
-              {isMainPage && <Faq />}
+              <Navbar />
+              <Hero />
+              <Slider />
+              <About />
+              <Projects />
+              <We />
+              <Benefits />
+              <Faq />
             </>
           }
         />
@@ -60,10 +56,12 @@ function MainLayout() {
           element={
             <>
               <SubNavbar />
-              <SubPage />
+              <SubContent />
+              <SubExamples />
             </>
           }
         />
+        <Route path="/test/subpage/" element={<SubPage />} />
       </Routes>
 
       <Footer /> {/* Always render Footer at the bottom of the page */}

@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
 import Hero from '../Hero/Hero';
 import Slider from '../Slider/Slider';
 import About from '../About/About';
@@ -10,6 +11,7 @@ import Faq from '../Faq/Faq';
 function MainPage() {
   return (
     <>
+      <Navbar />
       <Hero />
       <Slider />
       <About />
