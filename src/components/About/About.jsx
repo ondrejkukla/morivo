@@ -8,6 +8,13 @@ function About() {
         <about>
             <div className="container">
                 <Subtitle text="Bannery, vizuální identity, webdesign a další" color="black" />
+                <iframe
+                    src="https://www.youtube.com/embed/FEpKUCXNSVo"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
                 <div className="badges">
                     <Badge text="Vizuální identity" />
                     <Badge text="Bannery" />

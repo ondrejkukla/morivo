@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import Logo from "../Logo/Logo";
 import SubNavLinks from "../SubNavLinks/SubNavLinks";
 import "./SubNavbar.css";
@@ -17,7 +18,9 @@ function Navbar() {
     return (
         <header>
             <div className="container">
-                <Logo></Logo>
+                <Link to="/test/">
+                    <Logo></Logo>
+                </Link>
                 <nav ref={navRef}>
                     <a className="a-dropdown" href="#projects" onClick={showNavbar}>Práce</a>
                     <a className="a-dropdown" href="#we" onClick={showNavbar}>O nás</a>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import MainPage from './components/MainPage/MainPage';
 import SubPage from './components/SubPage/SubPage';
 import Footer from './components/Footer/Footer';
@@ -16,32 +16,43 @@ import useSmoothScroll from './hooks/useSmoothScroll';
 import './App.css';
 
 function App() {
-  useSmoothScroll(); // Use the custom hook for smooth scrolling
+  useSmoothScroll(); // Custom hook for smooth scrolling
 
   return (
     <Router>
+      <MainLayout />
+    </Router>
+  );
+}
+
+function MainLayout() {
+  const location = useLocation();
+
+  // Check if current route is the main page (/test/)
+  const isMainPage = location.pathname === '/test/';
+
+  return (
+    <>
+      {/* Render Navbar only on the main page */}
+      {isMainPage && <Navbar />}
+
       <Routes>
         {/* Main Layout */}
         <Route
           path="/test/*"
           element={
             <>
-              <Navbar />
-              <Hero />
-              <Slider />
-              <About />
-              <Projects />
-              <We />
-              <Benefits />
-              <Faq />
-              <Routes>
-                <Route path="/test/" element={<MainPage />} />
-                <Route path="/subpage/" element={<SubPage />} />
-              </Routes>
-              <Footer />
+              {isMainPage && <Hero />}
+              {isMainPage && <Slider />}
+              {isMainPage && <About />}
+              {isMainPage && <Projects />}
+              {isMainPage && <We />}
+              {isMainPage && <Benefits />}
+              {isMainPage && <Faq />}
             </>
           }
         />
+        <Route path="/test/" element={<MainPage />} />
 
         {/* Subpage Layout */}
         <Route
@@ -50,12 +61,13 @@ function App() {
             <>
               <SubNavbar />
               <SubPage />
-              <Footer />
             </>
           }
         />
       </Routes>
-    </Router>
+
+      <Footer /> {/* Always render Footer at the bottom of the page */}
+    </>
   );
 }
 
