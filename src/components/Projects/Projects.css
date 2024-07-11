@@ -24,11 +24,23 @@ projects div.container {
     margin-bottom: 40px;
     display: grid;
     grid-template-columns: repeat(3, 427px);
-    grid-template-rows: repeat(5, 427px);
+    grid-template-rows: repeat(6, 427px);
 }
 
 div.project-10 {
     grid-area: 4 / 2 / 5 / 4;
+}
+
+div.project-14 {
+    grid-area: 6 / 1 / 7 / 3;
+}
+
+div.project-14-small {
+    display: none;
+}
+
+div.project-15 {
+    grid-area: 6 / 3 / 7 / 4;
 }
 
 div.project-10-small {
@@ -56,7 +68,7 @@ div.container>Button {
 
     .grid-projects {
         grid-template-columns: repeat(3, 346px);
-        grid-template-rows: repeat(5, 346px);
+        grid-template-rows: repeat(6, 346px);
     }
 }
 
@@ -75,15 +87,59 @@ div.container>Button {
 
     .grid-projects {
         grid-template-columns: repeat(2, 416px);
-        grid-template-rows: repeat(4, 416px);
+        grid-template-rows: repeat(9, 416px);
     }
 
     div.project-3 {
         grid-area: 2 / 1 / 4 / 2;
     }
 
+    div.project-4 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .feedback-5 {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    div.project-6 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    div.project-7 {
+        grid-area: 5 / 2 / 6 / 3;
+    }
+
+    .feedback-8 {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+    div.project-9 {
+        grid-area: 6 / 2 / 7 / 3;
+    }
+
     div.project-10 {
         grid-area: 4 / 1 / 5 / 3;
+    }
+
+    div.project-11 {
+        grid-area: 7 / 1 / 8 / 2;
+    }
+
+    div.project-12 {
+        grid-area: 7 / 2 / 8 / 3;
+    }
+
+    div.project-13 {
+        grid-area: 9 / 1 / 10 / 2;
+    }
+
+    div.project-15 {
+        grid-area: 9 / 2 / 10 / 3;
+    }
+
+    div.project-14 {
+        grid-area: 8 / 1 / 9 / 3;
     }
 }
 
@@ -98,7 +154,7 @@ div.container>Button {
 
     .grid-projects {
         grid-template-columns: repeat(2, 344px);
-        grid-template-rows: repeat(4, 344px);
+        grid-template-rows: repeat(9, 344px);
     }
 
     div.container>Button {
@@ -118,33 +174,35 @@ div.container>Button {
 
     .grid-projects {
         grid-template-columns: repeat(1, 344px);
-        grid-template-rows: repeat(8, 344px);
+        grid-template-rows: repeat(13, 344px);
         row-gap: 50px;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    div.project-3 {
+        display: none;
     }
 
     div.project-10 {
         display: none;
     }
-    
-    div.project-10-small {
+
+    div.project-14 {
         display: none;
-    }
-    
-    div.project-3 {
-        display: none;
-    }
-    
-    div.project-3-small {
-        display: flex;
-        grid-area: 1 / 1 / 2 / 2;
     }
 
     div.project-2 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    div.project-3-small {
         display: flex;
         grid-area: 2 / 1 / 3 / 2;
     }
 
-    div.feedback-5 {
+    div.feedback-1 {
         display: flex;
         grid-area: 3 / 1 / 4 / 2;
     }
@@ -159,12 +217,17 @@ div.container>Button {
         grid-area: 5 / 1 / 6 / 2;
     }
 
-    div.project-9 {
+    div.feedback-5 {
+        display: flex;
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+    div.project-7 {
         display: flex;
         grid-area: 7 / 1 / 8 / 2;
     }
 
-    div.project-11 {
+    div.project-9 {
         display: flex;
         grid-area: 8 / 1 / 9 / 2;
     }
@@ -174,20 +237,31 @@ div.container>Button {
         grid-area: 9 / 1 / 10 / 2;
     }
 
-    div.project-13 {
+    div.project-11 {
         display: flex;
         grid-area: 10 / 1 / 11 / 2;
     }
 
-    div.project-10-small {
+    div.project-12 {
         display: flex;
         grid-area: 11 / 1 / 12 / 2;
     }
 
-    div.project-12 {
+    div.project-13 {
         display: flex;
         grid-area: 12 / 1 / 13 / 2;
     }
+
+    div.project-14-small {
+        display: flex;
+        grid-area: 13 / 1 / 14 / 2;
+    }
+
+    div.project-15 {
+        display: flex;
+        grid-area: 14 / 1 / 15 / 2;
+    }
+
 
     div.container>Button {
         bottom: -38px;

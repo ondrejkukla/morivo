@@ -1,0 +1,1 @@
+export { default as arrow_left } from './arrow_left.png';
