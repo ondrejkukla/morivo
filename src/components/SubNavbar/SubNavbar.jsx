@@ -33,7 +33,7 @@ function Navbar() {
                         <FaTimes />
                     </button>
                 </nav>
-                <div className="menu-btn">
+                <div className="sub-menu-btn">
                     <button
                         className="nav-btn"
                         onClick={showNavbar}>

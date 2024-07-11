@@ -12,7 +12,8 @@ subexamples {
 subexamples div.container {
     width: 1280px;
     margin: 0 auto;
-    padding: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .subexample-title {
@@ -21,22 +22,74 @@ subexamples div.container {
     align-items: center;
     padding-top: 72px;
     padding-bottom: 72px;
+    white-space: pre-wrap;
 }
 
 .subexaples-grid {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding-bottom: 56px;
+    gap: 40px;
 }
 
 .subpage-example1 {
-    width: 33%;
+    width: 426px;
 }
 
 .subpage-example2 {
-    width: 33%;
+    width: 426px;
 }
 
 .subpage-example3 {
-    width: 33%;
+    width: 426px;
+}
+
+@media only screen and (max-width: 1440px) {
+    subexamples div.container {
+        max-width: 1040px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    subexamples div.container {
+        max-width: 832px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    subexamples div.container {
+        max-width: 688px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    subexamples div.container {
+        max-width: 496px;
+    }
+
+    .subexaples-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subpage-example1 {
+        width: 337px;
+    }
+    
+    .subpage-example2 {
+        width: 337px;
+    }
+    
+    .subpage-example3 {
+        width: 337px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    subexamples div.container {
+        max-width: 337px;
+    }
 }
