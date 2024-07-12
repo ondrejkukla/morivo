@@ -7,6 +7,7 @@
   <link rel="icon" type="image/svg+xml" href="./src/assets/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>morivo</title>
@@ -26,6 +27,20 @@
       c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
       c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
     })(document);
+
+    // Apply styles after widget loads
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var chatWidget = document.querySelector('.smartsupp-chat');
+        if (chatWidget) {
+          chatWidget.style.backgroundColor = '#000000'; // Example background color
+          var widgetInner = chatWidget.querySelectorAll('.smartsupp-widget, .smartsupp-body, .smartsupp-content');
+          widgetInner.forEach(function (element) {
+            element.style.backgroundColor = '#000000'; // Example background color
+          });
+        }
+      }, 2000); // Adjust the timeout as needed
+    });
   </script>
   <noscript>Powered by <a href="https://www.smartsupp.com" target="_blank">Smartsupp
 </body>

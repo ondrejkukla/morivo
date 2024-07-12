@@ -7,6 +7,7 @@ import Projects from '../Projects/Projects';
 import We from '../We/We';
 import Benefits from '../Benefits/Benefits';
 import Faq from '../Faq/Faq';
+import Footer from '../Footer/Footer';
 
 function MainPage() {
   return (
@@ -19,6 +20,7 @@ function MainPage() {
       <We />
       <Benefits />
       <Faq />
+      <Footer />
     </>
   );
 }

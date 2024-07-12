@@ -1,0 +1,13 @@
+/* Smartsupp Chat widget styles */
+.smartsupp-chat {
+    background-color: #000000;
+    /* Example background color */
+}
+
+/* Adjust the background of the chat widget's inner components */
+.smartsupp-chat .smartsupp-widget,
+.smartsupp-chat .smartsupp-body,
+.smartsupp-chat .smartsupp-content {
+    background-color: #000000;
+    /* Example background color */
+}
