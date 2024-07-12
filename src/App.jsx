@@ -11,43 +11,13 @@ function App() {
   return (
     <Router basename="/test">
       <Routes>
-        {/* Main Layout */}
-        <Route
-          path="/"
-          element={<MainLayout />}
-        >
-          <Route index element={<MainPage />} />
-        </Route>
+        {/* Main Page */}
+        <Route path="/" element={<MainPage />} />
 
-        {/* Subpage Layout */}
-        <Route
-          path="subpage/*"
-          element={<SubLayout />}
-        >
-          <Route index element={<SubPage />} />
-        </Route>
+        {/* Subpage */}
+        <Route path="subpage" element={<SubPage />} />
       </Routes>
     </Router>
-  );
-}
-
-function MainLayout() {
-  return (
-    <>
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-      </Routes>
-    </>
-  );
-}
-
-function SubLayout() {
-  return (
-    <>
-      <Routes>
-        <Route path="/" element={<SubPage />} />
-      </Routes>
-    </>
   );
 }
 
