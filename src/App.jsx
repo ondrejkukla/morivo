@@ -6,16 +6,13 @@ import useSmoothScroll from './hooks/useSmoothScroll';
 import './App.css';
 
 function App() {
-  useSmoothScroll(); // Custom hook for smooth scrolling
+  useSmoothScroll();
 
   return (
-    <Router basename="/test">
+    <Router>
       <Routes>
-        {/* Main Page */}
-        <Route path="/" element={<MainPage />} />
-
-        {/* Subpage */}
-        <Route path="subpage" element={<SubPage />} />
+        <Route path="/test/" element={<MainPage />} />
+        <Route path="/test/subpage/" element={<SubPage />} />
       </Routes>
     </Router>
   );

@@ -9,13 +9,13 @@ import './SubPage.css';
 
 function SubPage() {
   return (
-    <subpage>
+    <>
       <SubNavbar />
       <SubPageHead />
       <SubContent />
       <SubExamples />
       <Footer />
-    </subpage>
+    </>
   );
 }
 
