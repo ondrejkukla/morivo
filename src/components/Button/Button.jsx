@@ -9,7 +9,7 @@ function Button(props) {
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-        
+
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });
@@ -47,7 +47,7 @@ function Button(props) {
             type = 'example';
             buttonContent = (
                 <Link to={props.link} />
-              );
+            );
             break;
 
         default:

@@ -33,17 +33,21 @@ div.identity {
     position: relative;
     right: 220px;
     top: -110px;
+    overflow-x: hidden;
+    min-width: 780px;
 }
 
 @media only screen and (max-width: 1440px) {
     div.identity {
         right: 360px;
         top: -112px;
+        min-width: 680px;
     }
 
     hero div.container {
         height: 640px;
         width: 1040px;
+
     }
 }
 
@@ -51,6 +55,7 @@ div.identity {
     div.identity {
         right: 568px;
         top: -112px;
+        min-width: 680px;
     }
 
     hero div.container {
@@ -70,6 +75,7 @@ div.identity {
     div.identity {
         right: 442px;
         top: -92px;
+        min-width: 520px;
     }
 
     div.left {
@@ -92,6 +98,7 @@ div.identity {
     div.identity {
         right: 334px;
         top: -40px;
+        min-width: 480px;
     }
 
     div.left {
@@ -119,6 +126,7 @@ div.identity {
     div.identity {
         right: 293px;
         top: -5px;
+        min-width: 303px;
     }
 
     div.left {

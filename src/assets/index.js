@@ -1,6 +1,6 @@
 
 
-const feedback1 = "Tým morivo nám za poslední dva roky spolupráce zajišťují veškerý design, UX/UI a tvorbu značek pro nás a naše klienty. Chtěl bych ocenit hlavně přístup, zkušenosti a často i vysokou míru trpělivosti při kooperaci s našim vývojářským týmem."  + "\n" + "\n" + "Díky moc!";
+const feedback1 = "Tým morivo nám za poslední dva roky spolupráce zajišťují veškerý design, UX/UI a tvorbu značek pro nás a naše klienty. Chtěl bych ocenit hlavně přístup, zkušenosti a často i vysokou míru trpělivosti při kooperaci s našim vývojářským týmem." + "\n" + "\n" + "Díky moc!";
 const sign1 = "Daniel Suchan - CTO of Blaze.codes";
 
 const feedback2 = "Předvánoční období je pro NATU vždy nejdůležitější část roku. K naší spokojenosti jsme v roce 2023 s Vojtou a jeho týmem měli všechny grafické podklady připravené včas a navíc jsme díky skvělým nápadům a kreativě vytvořili jednu z našich nejúspěšnějších kampaní za celou historii.";
@@ -72,12 +72,28 @@ const accordion_data = [
     }
 ];
 
+const links =
+{
+    miner: "https://drive.google.com/file/d/1jlIKn9vPUCfH1PB_PiLlxhnDLEazVEDp/preview",
+    dron: "https://drive.google.com/file/d/1sWiaDfVp62t27-kOv4t9Vm_2o9Kr0RAs/preview",
+    fitmeal: "https://drive.google.com/file/d/1mslp60DL0qQojUfUE0rNWkU-bUgFzsZ0/preview",
+    inowatti: "https://drive.google.com/file/d/1b9nBRAprOfwhbnJ9FyE39_GFxsn8kypp/preview",
+    izzy: "https://drive.google.com/file/d/1rn7LcjdUFjrLbGT-Y8ohjJpN4qn1zQp1/preview",
+    medarek: "https://drive.google.com/file/d/1P_WjOY5HS659owztPXce4Dh2VnQKyAkN/preview",
+    mlsne_kornoutky: "https://drive.google.com/file/d/1w9h7USI_9NJhChBY0DY4CNm6cr3XXf8j/preview",
+    my_prom: "https://drive.google.com/file/d/12B0RMR3-5pJWnJicOiBukBqHgC0VftG_/preview",
+    natu: "https://drive.google.com/file/d/1-iekOGdhGrF9jopJnjGCcOGIiPX0INkm/preview",
+    ozdob_dort: "https://drive.google.com/file/d/1qbGGwMzU-7gvtgydzKuR818vvRdKS-1M/preview",
+    primavent: "https://drive.google.com/file/d/1D-5jFe7ony_tcITnCEB7JqQI6NKYyRcT/preview",
+    alarm: "https://drive.google.com/file/d/1A4USHAJYIlmGVAtyynH4Lji_aKblfiMc/preview"
+};
+
 export {
     feedback1, feedback2, feedback3, sign1, sign2, sign3,
     timeline1, timeline2, timeline3, timeline4, timeline5, timeline6, timeline_text1, timeline_text2, timeline_text3,
     benefits_subtitle1, benefits_subtitle2, benefits_subtitle3, benefits_subtitle4, benefits_subtitle5, benefits_subtitle6, benefits_subtitle7,
     benefits_text1, benefits_text2, benefits_text3, benefits_text4, benefits_text5, benefits_text6, benefits_text7,
-    accordion_data
+    accordion_data, links
 };
 
 

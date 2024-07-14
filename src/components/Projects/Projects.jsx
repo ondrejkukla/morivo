@@ -20,23 +20,23 @@ function Projects() {
                 </div>
                 <div className="grid-projects">
                     <div className="feedback-1"> <Feedback text={feedback1} signature={sign1} center="false" /></div>
-                    <div className="project-2"> <Example img={fit_meal} /></div>
-                    <div className="project-3"> <Example img={mlsne_kornoutky} /></div>
-                    <div className="project-3-small"> <Example img={mlsne_kornoutky_small} /></div>
-                    <div className="project-4"> <Example img={miner} /></div>
+                    <div className="project-2"> <Example img={fit_meal} link="fitmeal" /></div>
+                    <div className="project-3"> <Example img={mlsne_kornoutky} link="mlsne_kornoutky" /></div>
+                    <div className="project-3-small"> <Example img={mlsne_kornoutky_small} link="mlsne_kornoutky" /></div>
+                    <div className="project-4"> <Example img={miner} link="miner" /></div>
                     <div className="feedback-5"> <Feedback text={feedback2} signature={sign2} center="true" /></div>
-                    <div className="project-6"> <Example img={medarek} /></div>
-                    <div className="project-7"> <Example img={alarm} /></div>
+                    <div className="project-6"> <Example img={medarek} link="medarek" /></div>
+                    <div className="project-7"> <Example img={alarm} link="alarm" /></div>
                     <div className="feedback-8"> <Feedback text={feedback3} signature={sign3} center="true" /></div>
-                    <div className="project-9"> <Example img={inowatti} /></div>
-                    <div className="project-10"> <Example img={ozdob_dort} /></div>
+                    <div className="project-9"> <Example img={inowatti} link="inowatti" /></div>
+                    <div className="project-10"> <Example img={ozdob_dort} link="ozdob_dort" /></div>
                     <div className="project-10-small"> <Example img={pekarstvi_makovec_small} /></div>
-                    <div className="project-11"> <Example img={my_prom} /></div>
-                    <div className="project-12"> <Example img={dron} /></div>
-                    <div className="project-13"> <Example img={izzi} /></div>
-                    <div className="project-14"> <Example img={natu} /></div>
-                    <div className="project-14-small"> <Example img={natu_small} /></div>
-                    <div className="project-15"> <Example img={prima_vent} /></div>
+                    <div className="project-11"> <Example img={my_prom} link="my_prom" /></div>
+                    <div className="project-12"> <Example img={dron} link="dron" /></div>
+                    <div className="project-13"> <Example img={izzi} link="izzy" /></div>
+                    <div className="project-14"> <Example img={natu} link="natu" /></div>
+                    <div className="project-14-small"> <Example img={natu_small} link="natu" /></div>
+                    <div className="project-15"> <Example img={prima_vent} link="primavent" /></div>
                 </div>
                 <Button
                     type="header"

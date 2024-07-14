@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './components/MainPage/MainPage';
 import SubPage from './components/SubPage/SubPage';
 import useSmoothScroll from './hooks/useSmoothScroll';
+import { ScrollProvider } from './hooks/scrollProvider';
 import './App.css';
 
 function App() {
@@ -10,10 +11,13 @@ function App() {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/test/" element={<MainPage />} />
-        <Route path="/test/subpage/" element={<SubPage />} />
-      </Routes>
+      <ScrollProvider>
+        <Routes>
+          <Route path="/test/*" element={<MainPage />} />
+          {/* <Route path="/test/subpage/" element={<SubPage />} /> */}
+          <Route path="/test/:productId/*" element={<SubPage />} />
+        </Routes>
+      </ScrollProvider>
     </Router>
   );
 }
