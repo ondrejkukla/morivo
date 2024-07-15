@@ -11,23 +11,23 @@ function SubNavLinks() {
 
     const handleRedirect = () => {
         setScrollTarget('projects');
-        navigate('/test');
+        navigate('/');
     }
 
     return (
         <div className="sub-grid-links">
             <div className="sub-cell1">
                 <div className="width-90">
-                    <RouterLink to="/test/#projects" >
+                    <RouterLink to="/#projects" >
                         <Link text="Práce" onClick={() => handleRedirect('projects')} />
                     </RouterLink>
-                    <RouterLink to="/test/#we">
+                    <RouterLink to="/#we">
                         <Link text="O nás" onClick={() => handleRedirect('we')} />
                     </RouterLink>
                 </div>
             </div>
             <div className="sub-cell2">
-                <RouterLink to="/test/#benefits">
+                <RouterLink to="/#benefits">
                     <Link text="Proč morivo?" onClick={() => handleRedirect('benefits')} />
                 </RouterLink>
             </div>

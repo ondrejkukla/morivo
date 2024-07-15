@@ -43,7 +43,7 @@ iframe {
     justify-content: end;
     position: relative;
     top: -90px;
-    right: 100px;
+    right: -110px;
     margin-left: 200px;
     z-index: 5;
     border-radius: 51px;
@@ -57,6 +57,7 @@ iframe {
     .subcontent-businessCard {
         scale: 0.8;
         top: -32px;
+        right: -90px;
     }
 
     .subcontent-button {
@@ -72,7 +73,7 @@ iframe {
     .subcontent-businessCard {
         scale: 0.75;
         top: -18px;
-        right: 163px;
+        right: 0px;
     }
 
     .subcontent-button {
@@ -92,7 +93,7 @@ iframe {
     .subcontent-businessCard {
         scale: 0.7;
         top: -3px;
-        right: 205px;
+        right: 50px;
     }
 
     .subcontent-button {
@@ -101,9 +102,13 @@ iframe {
 }
 
 @media only screen and (max-width: 768px) {
+    div.subcontent-container {
+        height: 1380px;
+    }
+    
     div.subcontent-modal {
         max-width: 496px;
-        top: -800px;
+        top: -700px;
     }
 
     iframe {
@@ -111,7 +116,11 @@ iframe {
     }
 
     .subcontent-businessCard {
-        display: none;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 250px;
+        right: 100px;
     }
 
     .subcontent-button {

@@ -1,4 +1,4 @@
-export { default as fit_meal } from './fit_meal.png';
+export { default as fitmeal } from './fitmeal.png';
 export { default as mlsne_kornoutky } from './mlsne_kornoutky.png';
 export { default as mlsne_kornoutky_small } from './mlsne_kornoutky_small.png';
 export { default as miner } from './miner.png';
@@ -12,4 +12,4 @@ export { default as izzi } from './izzi.png';
 export { default as pekarstvi_makovec_small } from './pekarna_makovec_small.png';
 export { default as natu } from './natu.png';
 export { default as natu_small } from './natu_small.png';
-export { default as prima_vent } from './prima_vent.png';
+export { default as primavent } from './primavent.png';

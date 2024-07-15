@@ -4,7 +4,7 @@ import Example from "../Example/Example";
 import Feedback from "../Feedback/Feedback";
 import Button from "../Button/Button";
 import {
-    fit_meal, mlsne_kornoutky, mlsne_kornoutky_small, miner, medarek, alarm, inowatti, ozdob_dort, my_prom, dron, izzi, pekarstvi_makovec_small, natu, natu_small, prima_vent
+    fitmeal, mlsne_kornoutky, mlsne_kornoutky_small, miner, medarek, alarm, inowatti, ozdob_dort, my_prom, dron, izzi, pekarstvi_makovec_small, natu, natu_small, primavent
 } from "../../assets/projects";
 import {
     feedback1, feedback2, feedback3, sign1, sign2, sign3
@@ -20,7 +20,7 @@ function Projects() {
                 </div>
                 <div className="grid-projects">
                     <div className="feedback-1"> <Feedback text={feedback1} signature={sign1} center="false" /></div>
-                    <div className="project-2"> <Example img={fit_meal} link="fitmeal" /></div>
+                    <div className="project-2"> <Example img={fitmeal} link="fitmeal" /></div>
                     <div className="project-3"> <Example img={mlsne_kornoutky} link="mlsne_kornoutky" /></div>
                     <div className="project-3-small"> <Example img={mlsne_kornoutky_small} link="mlsne_kornoutky" /></div>
                     <div className="project-4"> <Example img={miner} link="miner" /></div>
@@ -36,7 +36,7 @@ function Projects() {
                     <div className="project-13"> <Example img={izzi} link="izzy" /></div>
                     <div className="project-14"> <Example img={natu} link="natu" /></div>
                     <div className="project-14-small"> <Example img={natu_small} link="natu" /></div>
-                    <div className="project-15"> <Example img={prima_vent} link="primavent" /></div>
+                    <div className="project-15"> <Example img={primavent} link="primavent" /></div>
                 </div>
                 <Button
                     type="header"

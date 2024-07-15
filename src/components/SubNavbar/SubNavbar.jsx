@@ -18,7 +18,7 @@ function Navbar() {
     return (
         <header>
             <div className="container">
-                <Link to="/test/">
+                <Link to="/">
                     <Logo></Logo>
                 </Link>
                 <nav ref={navRef}>

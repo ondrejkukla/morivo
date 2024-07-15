@@ -13,9 +13,8 @@ function App() {
     <Router>
       <ScrollProvider>
         <Routes>
-          <Route path="/test/*" element={<MainPage />} />
-          {/* <Route path="/test/subpage/" element={<SubPage />} /> */}
-          <Route path="/test/:productId/*" element={<SubPage />} />
+          <Route path="/" element={<MainPage />} />
+          <Route path="/:productId" element={<SubPage />} />
         </Routes>
       </ScrollProvider>
     </Router>

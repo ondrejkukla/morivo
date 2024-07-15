@@ -7,7 +7,6 @@ import './SubContent.css';
 
 function SubContent({ productId }) {
     const productData = links[productId];
-    console.log(`product data is ${productData}`);
     return (
         <subcontent>
             <div className='subcontent-container'>
@@ -15,7 +14,7 @@ function SubContent({ productId }) {
                     <iframe src={productData} frameBorder="0"></iframe>
                 </div>
                 <div className="subcontent-button">
-                    <Button type="header" text="Vrátit se na hlavní stránku" link="/test/" />
+                    <Button type="header" text="Vrátit se na hlavní stránku" link="/" />
                 </div>
                 <div className="subcontent-businessCard">
                     <BusinessCard />

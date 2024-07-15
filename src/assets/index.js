@@ -88,12 +88,57 @@ const links =
     alarm: "https://drive.google.com/file/d/1A4USHAJYIlmGVAtyynH4Lji_aKblfiMc/preview"
 };
 
+const tab_title =
+{
+    miner: "2B mnier",
+    dron: "Dron Pro",
+    fitmeal: "FitMeal",
+    inowatti: "InoWatti",
+    izzy: "Izzy",
+    medarek: "Medarek",
+    mlsne_kornoutky: "Mmmlsné kornoutky",
+    my_prom: "My Prom",
+    natu: "Natu",
+    ozdob_dort: "Ozdob dort",
+    primavent: "primavent",
+    alarm: "XAlarm"
+};
+
+const tab_images =
+{
+    miner: new URL('./projects/miner.png', import.meta.url).href,
+    dron: new URL('./projects/dron.png', import.meta.url).href,
+    fitmeal: new URL('./projects/fitmeal.png', import.meta.url).href,
+    inowatti: new URL('./projects/inowatti.png', import.meta.url).href,
+    izzy: new URL('./projects/izzi.png', import.meta.url).href,
+    medarek: new URL('./projects/medarek.png', import.meta.url).href,
+    mlsne_kornoutky: new URL('./projects/mlsne_kornoutky_small.png', import.meta.url).href,
+    my_prom: new URL('./projects/my_prom.png', import.meta.url).href,
+    natu: new URL('./projects/natu_small.png', import.meta.url).href,
+    primavent: new URL('./projects/primavent.png', import.meta.url).href,
+    alarm: new URL('./projects/alarm.png', import.meta.url).href,
+};
+
+const tab_links = {
+    miner: "miner",
+    dron: "dron",
+    fitmeal: "fitmeal",
+    inowatti: "inowatti",
+    izzy: "izzy",
+    medarek: "medarek",
+    mlsne_kornoutky: "mlsne_kornoutky",
+    my_prom: "my_prom",
+    natu: "natu",
+    primavent: "primavent",
+    alarm: "alarm"
+};
+
 export {
     feedback1, feedback2, feedback3, sign1, sign2, sign3,
     timeline1, timeline2, timeline3, timeline4, timeline5, timeline6, timeline_text1, timeline_text2, timeline_text3,
     benefits_subtitle1, benefits_subtitle2, benefits_subtitle3, benefits_subtitle4, benefits_subtitle5, benefits_subtitle6, benefits_subtitle7,
     benefits_text1, benefits_text2, benefits_text3, benefits_text4, benefits_text5, benefits_text6, benefits_text7,
-    accordion_data, links
+    accordion_data, links, tab_title, tab_images, tab_links
 };
 
 
