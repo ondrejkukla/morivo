@@ -1,1 +1,1 @@
-Current status check: https://morivo.cz/test/
+Deployed: https://morivo.cz/
