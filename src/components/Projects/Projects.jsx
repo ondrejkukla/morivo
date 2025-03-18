@@ -16,7 +16,7 @@ function Projects() {
         <projects id="projects">
             <div className="container">
                 <div className="projects-title">
-                    <Title name="Na čem pracujeme?" color="black" />
+                    <Title name="Výřez z portfolia" color="black" />
                 </div>
                 <div className="grid-projects">
                     <div className="feedback-1"> <Feedback text={feedback1} signature={sign1} center="false" /></div>
