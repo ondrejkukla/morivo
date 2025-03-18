@@ -27,12 +27,12 @@ const benefits_subtitle3 = "Rychlé doručení";
 const benefits_subtitle4 = "Unikátní a vaše";
 const benefits_subtitle5 = "Design se zaměřením na zákazníka";
 const benefits_subtitle6 = "Vždy máte přehled, co se zrovna děje";
-const benefits_subtitle7 = "Výkon, výkon," + "\n" + "výkon!";
+const benefits_subtitle7 = "Výkonnostní kreativní formáty";
 
-const benefits_text1 = "Transparentně vždy dopředu víte, kolik bude práce či měsíc stát.";
+const benefits_text1 = "Fixní sazba: Platíte za naši práci na měsíční bázi podle předem domluveného rozsahu.";
 const benefits_text2 = "Komunikace je u nás v jakékoli situaci na prvním místě, jsme na telefonu nepřetržitě.";
 const benefits_text3 = "Chápeme, že potřebujete fungovat dynamicky, po domluvě rádi doručíme výsledky expresně.";
-const benefits_text4 = "Každý design děláme na míru a je vždy 100% váš.";
+const benefits_text4 = "Každou práci děláme na míru a je vždy 100% Vaše. Kreativu neomezujeme na ChatGPT, nápady vymýšlíme hlavně my.";
 const benefits_text5 = "V naši práci se soustředíme na výsledky. Zvýšení tržeb nebo posílení značky.";
 const benefits_text6 = "A když si nejste jistí, můžete kdykoliv zavolat.";
 const benefits_text7 = "V naši práci se soustředíme na výsledky. Zvýšení tržeb nebo posílení značky.";
