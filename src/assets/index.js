@@ -9,7 +9,7 @@ const sign2 = "Jan Netolička - Head of Marketing NATU";
 const feedback3 = "Spolupráce byla absolutně bezproblémová, společně jsme pracovali na brožuře k výcvikovému kurzu EmotionAid(R). Oceňuji především rychlost komunikace i velmi rychlé a bezchybné  dodání celé zakázky. Spolupráci mohu jedině doporučit"
 const sign3 = "Zlata Koštejnová - Emotion Aid";
 
-const timeline1 = "Náš Creative Director Vojta začal jako grafický designér.";
+const timeline1 = "Náš kapitán Vojta začal jako grafický designér.";
 const timeline2 = "S dalšími kolegy v agenturách pracoval pro velké české i mezinárodní značky a korporáty.";
 const timeline3 = "Korporátní svět? Ne, díky. S několika kolegy se vydal na volnou nohu jako tým.";
 const timeline4 = "S růstem počtu dlouhodobých klientů jsme přizpůsobili naši komunikaci, abychom byli zákazníkům co nejblíže.";
