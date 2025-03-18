@@ -8,7 +8,7 @@ function BusinessCard() {
         <div className="business-card">
             <div className="business-card__image">
                 <img src={vojtech} alt="" style={{ backgroundImage: `url(${background_image})` }} />
-                <p>Vojtěch Moric, Art Director</p>
+                <p>Vojtěch Moric, kapitán týmu</p>
             </div>
             <div className="bc-title">Vyberte si termín <br /> online schůzky</div>
             <div className="bc-button">
