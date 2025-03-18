@@ -16,9 +16,9 @@ const timeline4 = "S růstem počtu dlouhodobých klientů jsme přizpůsobili n
 const timeline5 = "Věnujeme se projektům, které nás baví a dáváme jim 100 % naší energie.";
 const timeline6 = "Hledáme další fajn příležitosti a dlouhodobé spolupráce.";
 
-const timeline_text1 = "Jsme externí kreativně-grafický tým, žádná agentura, žádný korporát, fungujeme úplně jinak než všichni ostatní.";
-const timeline_text2 = "S kolegy jsme korporát a agentury opustili a vydali se na volnou nohu jako tým. Chceme prosazovat rychlý, komunikativní a spolehlivý přístup ve spolupráci bez zbytečných meetingů nebo odkládání práce.";
-const timeline_text3 = "Zaměřujeme se na takovou práci, která je výsledkově orientovaná. Naše výstupy neděláme pro dobrý pocit z krásné grafiky, ale pro získání pozornosti zákazníků.";
+const timeline_text1 = "Jsme kreativně-grafický tým, který se specializuje na grafiku, texty, videa a kreativitu pro výkonnostní reklamu. Nejsme agentura, nejsme korporát – fungujeme jinak, efektivněji a proaktivně.";
+const timeline_text2 = "Opustili jsme svět agentur, abychom mohli pracovat rychle, flexibilně a spolehlivě. Zakládáme si na přímé komunikaci a efektivní spolupráci – žádné nekonečné schůzky, žádné odkládání práce.";
+const timeline_text3 = "Naše práce není jen o hezké grafice nebo poutavých textech. Tvoříme obsah, který zaujme, osloví a přinese vám výsledky - peníze nebo kvalitní leady.";
 
 
 const benefits_subtitle1 = "Úkolová / fixní sazba";
