@@ -13,21 +13,26 @@ function About() {
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
-                ></iframe>
-                <Subtitle text="Bannery, vizuální identity, webdesign a další" color="black" />
+                />
+                <Subtitle text="Tvorba reklamních kampaní od nápadu po realizaci" color="black" />
                 <div className="badges">
-                    <Badge text="Vizuální identity" />
+                    <Badge text="Kreativní výkonnostní kampaně" />
                     <Badge text="Bannery" />
                     <Badge text="PPC sady" />
-                    <Badge text="Loga" />
+                    <Badge text="Kreativní koncepty" />
+                    <Badge text="Animace" />
+                    <Badge text="UX/UI vč. měření" />
+                    <Badge text="Loga a vizuální identity" />
                     <Badge text="Webdesign" />
                     <Badge text="Design tiskovin" />
-                    <Badge text="Ikony" />
-                    <Badge text="Vizuální strategie" />
+                    <Badge text="Vizuální a komunikační strategie" />
                     <Badge text="Brandmanuály" />
-                    <Badge text="Mobilní aplikace" />
-                    <Badge text="Animace" />
-                    <Badge text="Sociální sítě" />
+                    <Badge text="Kreativní copywriting" />
+                    <Badge text="Scénáře pro videa" />
+                    <Badge text="Tvorba Content/Media plánu" />
+                    <Badge text="Produktové REELS" />
+                    <Badge text="Střih videí" />
+                    <Badge text="UGC reklamy" />
                 </div>
             </div>
         </about>
