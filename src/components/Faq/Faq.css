@@ -37,11 +37,7 @@ div.faq-distance {
     min-width: 50%;
 }
 
-.ppl-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.faq-bottom {
     margin-bottom: 96px;
 }
 
@@ -49,13 +45,8 @@ div.faq-distance {
     display: flex;
     min-width: 2040px;
     gap: 8px;
-    margin-bottom: 96px;
     white-space: nowrap;
     animation: 20s move_lr infinite linear;
-}
-
-div.ppl-image img {
-    width: 100vw;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -78,12 +69,12 @@ div.ppl-image img {
         align-items: center;
     }
 
-    .ppl-image {
+    .faq-bottom {
         margin-bottom: 72px;
     }
 
     .faq-badges {
-        margin-bottom: 72px;
+        margin-bottom: 0;
     }
 }
 

@@ -9,7 +9,7 @@ projects {
 
 projects div.container {
     padding-top: 96px;
-    padding-bottom: 56px;
+    padding-bottom: 40px;
     height: 100%;
     width: 1280px;
     display: flex;
@@ -21,10 +21,10 @@ projects div.container {
 
 .grid-projects {
     margin-top: 56px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(3, 427px);
-    grid-template-rows: repeat(6, 427px);
+    grid-template-rows: repeat(8, 427px);
 }
 
 div.project-10 {
@@ -32,7 +32,7 @@ div.project-10 {
 }
 
 div.project-14 {
-    grid-area: 6 / 1 / 7 / 3;
+    grid-area: 7 / 1 / 8 / 3;
 }
 
 div.project-14-small {
@@ -40,8 +40,10 @@ div.project-14-small {
 }
 
 div.project-15 {
-    grid-area: 6 / 3 / 7 / 4;
+    grid-area: 7 / 3 / 8 / 4;
 }
+
+
 
 div.project-10-small {
     display: none;
@@ -58,7 +60,28 @@ div.project-3-small {
 div.container>Button {
     align-self: center;
     position: relative;
-    bottom: -82px;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+div.project-16 {
+    grid-area: 8 / 1 / 9 / 2;
+}
+
+div.project-17 {
+    grid-area: 8 / 2 / 9 / 3;
+}
+
+div.project-18 {
+    grid-area: 8 / 3 / 9 / 4;
+}
+
+div.feedback-19 {
+    grid-area: 6 / 1 / 7 / 2;
+}
+
+div.feedback-20 {
+    grid-area: 6 / 3 / 7 / 4;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -68,7 +91,7 @@ div.container>Button {
 
     .grid-projects {
         grid-template-columns: repeat(3, 346px);
-        grid-template-rows: repeat(6, 346px);
+        grid-template-rows: repeat(9, 346px);
     }
 }
 
@@ -87,7 +110,7 @@ div.container>Button {
 
     .grid-projects {
         grid-template-columns: repeat(2, 416px);
-        grid-template-rows: repeat(9, 416px);
+        grid-template-rows: repeat(12, 416px);
     }
 
     div.project-3 {
@@ -141,6 +164,28 @@ div.container>Button {
     div.project-14 {
         grid-area: 8 / 1 / 9 / 3;
     }
+
+
+
+    div.project-16 {
+        grid-area: 10 / 1 / 11 / 2;
+    }
+
+    div.project-17 {
+        grid-area: 11 / 1 / 12 / 2;
+    }
+
+    div.project-18 {
+        grid-area: 10 / 2 / 11 / 3;
+    }
+
+    div.feedback-19 {
+        grid-area: 4 / 2 / 5 / 3;
+    }
+
+    div.feedback-20 {
+        grid-area: 8 / 2 / 9 / 3;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -154,11 +199,12 @@ div.container>Button {
 
     .grid-projects {
         grid-template-columns: repeat(2, 344px);
-        grid-template-rows: repeat(9, 344px);
+        grid-template-rows: repeat(12, 344px);
     }
 
     div.container>Button {
-        bottom: -38px;
+        bottom: 0;
+        margin-top: 20px;
     }
 }
 
@@ -174,7 +220,7 @@ div.container>Button {
 
     .grid-projects {
         grid-template-columns: repeat(1, 344px);
-        grid-template-rows: repeat(13, 344px);
+        grid-template-rows: repeat(19, 344px);
         row-gap: 50px;
         align-self: center;
         align-items: center;
@@ -244,29 +290,53 @@ div.container>Button {
 
     div.project-12 {
         display: flex;
-        grid-area: 11 / 1 / 12 / 2;
+        grid-area: 13 / 1 / 14 / 2;
     }
 
     div.project-13 {
         display: flex;
-        grid-area: 12 / 1 / 13 / 2;
+        grid-area: 14 / 1 / 15 / 2;
     }
 
     div.project-14-small {
         display: flex;
-        grid-area: 13 / 1 / 14 / 2;
+        grid-area: 15 / 1 / 16 / 2;
     }
 
     div.project-15 {
         display: flex;
-        grid-area: 14 / 1 / 15 / 2;
+        grid-area: 16 / 1 / 17 / 2;
     }
 
+    div.project-16 {
+        display: flex;
+        grid-area: 17 / 1 / 18 / 2;
+    }
+
+    div.project-17 {
+        display: flex;
+        grid-area: 18 / 1 / 19 / 2;
+    }
+
+    div.project-18 {
+        display: flex;
+        grid-area: 19 / 1 / 20 / 2;
+    }
+
+    div.feedback-19 {
+        display: flex;
+        grid-area: 11 / 1 / 12 / 2;
+    }
+
+    div.feedback-20 {
+        display: flex;
+        grid-area: 12 / 1 / 13 / 2;
+    }
 
     div.container>Button {
-        bottom: -38px;
+        bottom: 0;
+        margin-top: 20px;
     }
-
 }
 
 @media only screen and (max-width: 576px) {

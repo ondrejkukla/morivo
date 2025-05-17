@@ -32,7 +32,7 @@ function SubNavLinks() {
                 </RouterLink>
             </div>
             <div className="sub-cell3">
-                <Button type="header" text="Kontaktovat" link="#footer" />
+                <Button type="header" text="Kontaktovat" link="#contact" />
                 <div className="hamburger-icon">
                 </div>
             </div>

@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
 import Button from "../Button/Button";
+import { default as emailIcon } from "../../assets/email.svg";
+import { default as phoneIcon } from "../../assets/phone.svg";
+import { default as calendarIcon } from "../../assets/calendar.svg";
 
 function ContactForm() {
     const [formData, setFormData] = useState({
@@ -62,9 +65,9 @@ function ContactForm() {
 
     return (
         <section id="contact" className="contact-section">
+            <h2 className="contact-title">Jsme ti praví?</h2>
             <div className="contact-container">
                 <div className="contact-form-container">
-                    <h2 className="contact-title">Jsme ti praví?</h2>
                     <form onSubmit={handleSubmit}>
                         <input
                             type="text"
@@ -113,17 +116,22 @@ function ContactForm() {
                     <p className="company-location">Sídlíme na jižní Moravě, ale fungujeme remote</p>
                     <div className="contact-details">
                         <div className="contact-phone">
+                            <img src={phoneIcon} alt="Phone" />
                             <a href="tel:+420777907805">+420 777 907 805</a>
                         </div>
                         <div className="contact-email">
+                            <img src={emailIcon} alt="Email" />
                             <a href="mailto:hello@morivo.cz">hello@morivo.cz</a>
                         </div>
                         <div className="contact-button">
-                            <Button 
-                                type="header" 
-                                text="Náplanovat online schůzku" 
-                                link="https://calendly.com/morivo/schuzka" 
-                            />
+                            <div className="button-with-icon">
+                                <img src={calendarIcon} alt="Calendar" className="button-icon" />
+                                <Button 
+                                    type="header" 
+                                    text="Naplánovat online schůzku" 
+                                    link="https://calendly.com/morivo/schuzka" 
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

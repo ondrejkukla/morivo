@@ -25,7 +25,7 @@ function Navbar() {
                     <a className="a-dropdown" href="#projects" onClick={showNavbar}>Práce</a>
                     <a className="a-dropdown" href="#we" onClick={showNavbar}>O nás</a>
                     <a className="a-dropdown" href="#benefits" onClick={showNavbar}>Proč morivo?</a>
-                    <a className="a-dropdown" href="#footer" onClick={showNavbar}>Kontaktovat</a>
+                    <a className="a-dropdown" href="#contact" onClick={showNavbar}>Kontaktovat</a>
                     <SubNavLinks />
                     <div className="logo-dropdown">
                         <Logo />

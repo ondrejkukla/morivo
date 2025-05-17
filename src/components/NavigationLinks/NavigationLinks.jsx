@@ -17,7 +17,7 @@ function NavigationLinks() {
                 <Link text="Proč morivo?" link="#benefits" />
             </div>
             <div className="cell3">
-                <Button type="header" text="Kontaktovat" link="#footer" />
+                <Button type="header" text="Kontaktovat" link="#contact" />
                 <div className="hamburger-icon">
             </div>
             </div>

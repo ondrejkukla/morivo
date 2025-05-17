@@ -1,6 +1,7 @@
 we {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     margin: 0 auto;
     min-height: 912px;
@@ -44,9 +45,30 @@ div.we-text-block>p {
     height: 28px;
 }
 
+.team-photo-section {
+    width: 100%;
+    padding: 0 0 96px 0;
+    max-width: 100%;
+}
+
+.team-image {
+    width: 100%;
+    max-width: 100%;
+}
+
+.full-width-image {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 @media only screen and (max-width: 1440px) {
     we div.container {
         width: 1040px;
+    }
+    
+    .team-photo-section {
+        padding: 0 0 72px 0;
     }
 }
 
@@ -57,6 +79,10 @@ div.we-text-block>p {
 
     .timeline-cont {
         right: 400px;
+    }
+    
+    .team-photo-section {
+        padding: 0 0 60px 0;
     }
 }
 
@@ -82,7 +108,10 @@ div.we-text-block>p {
         padding-left: 40px;
         padding-right: 40px;
     }
-
+    
+    .team-photo-section {
+        padding: 0 0 48px 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -92,7 +121,10 @@ div.we-text-block>p {
         padding-left: 40px;
         padding-right: 40px;
     }
-
+    
+    .team-photo-section {
+        padding: 0 0 40px 0;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -113,5 +145,9 @@ div.we-text-block>p {
 
     .timeline-cont {
         margin-top: -50px;
+    }
+    
+    .team-photo-section {
+        padding: 0 0 32px 0;
     }
 }

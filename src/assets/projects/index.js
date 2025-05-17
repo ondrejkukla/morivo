@@ -13,3 +13,6 @@ export { default as pekarstvi_makovec_small } from './pekarna_makovec_small.png'
 export { default as natu } from './natu.png';
 export { default as natu_small } from './natu_small.png';
 export { default as primavent } from './primavent.png';
+export { default as beauty_manifesto } from './beauty-manifesto.png';
+export { default as miband } from './miband.png';
+export { default as vinisto } from './vinisto.png';

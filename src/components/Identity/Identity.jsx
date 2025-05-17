@@ -15,8 +15,8 @@ function Identity() {
                     borderRadius: '50%',
                 }} />
             </div>
-            <div className="item-2"></div>
-            <div className="item-3"></div>
+            <div className="item-2" />
+            <div className="item-3" />
             <div className="item-4">
                 <img src={people} alt="" id="woman" style={{
                     backgroundPosition: 'center',
@@ -27,8 +27,8 @@ function Identity() {
                     borderRadius: '50%',
                 }} />
             </div>
-            <div className="item-5"></div>
-            <div className="item-6"></div>
+            <div className="item-5" />
+            <div className="item-6" />
             <div className="item-7">
                 <img src={computer} alt="" id="woman" style={{
                     backgroundPosition: 'center',
@@ -39,7 +39,7 @@ function Identity() {
                     borderRadius: '50%',
                 }} />
             </div>
-            <div className="item-8"></div>
+            <div className="item-8" />
             <div className="item-9">
                 <img src={m} alt="" id="woman" style={{
                     backgroundPosition: 'center',
@@ -50,12 +50,12 @@ function Identity() {
                 }} />
             </div>
 
-            <div className="line-1"></div>
-            <div className="line-2"></div>
-            <div className="line-3"></div>
-            <div className="line-4"></div>
-            <div className="line-5"></div>
-            <div className="line-6"></div>
+            <div className="line-1" />
+            <div className="line-2" />
+            <div className="line-3" />
+            <div className="line-4" />
+            <div className="line-5" />
+            <div className="line-6" />
         </div>
     )
 }

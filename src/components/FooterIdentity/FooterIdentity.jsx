@@ -16,7 +16,7 @@ function FooterIdentity() {
             <div className="footer-i f-10"></div>
             <div className="footer-i f-11"></div>
             <div className="footer-i f-12"></div>
-            <div className="copyright">morivo company s.r.o.</div>
+            <div className="copyright">Copyright © {new Date().getFullYear()} morivo company s.r.o.</div>
             <div className="footer-i f-13"></div>
         </div>
     );

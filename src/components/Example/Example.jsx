@@ -3,12 +3,9 @@ import Button from '../Button/Button';
 import './Example.css';
 
 function Example(props) {
-
-  const productId = props.link;
-
   return (
     <div className="colab" style={{ backgroundImage: `url(${props.img})` }}>
-      <Button type="example" text="Zobrazit projekt" link={`/${productId}`} />
+      <Button type="header" text="Zobrazit projekt" link="https://drive.google.com/drive/folders/1FCB01AQQoIMeopkk0WVTXFLAcJ6IZfuk" />
     </div>
   );
 }

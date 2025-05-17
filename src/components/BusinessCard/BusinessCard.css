@@ -8,19 +8,18 @@
   border-radius: 235px;
 }
 
-.business-card img {
+.business-card__image img {
   width: 223px;
   height: 223px;
   border-radius: 50%;
   margin-top: 56px;
-
   background-size: cover;
   background-position: center;
 }
 
 div.business-card p {
   color: white;
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -31,7 +30,7 @@ div.business-card p {
 
 .bc-title {
   color: white;
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
   font-size: 48px;
   font-weight: 400;
   line-height: 56px;
@@ -40,12 +39,65 @@ div.business-card p {
 }
 
 .bc-button {
+  margin-bottom: 20px;
+}
+
+.nebo-label {
+  color: #999;
+  font-family: 'inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 0;
+  text-transform: lowercase;
+  margin-top: -12px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   margin-bottom: 56px;
 }
 
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.contact-item a {
+  color: white;
+  text-decoration: none;
+  font-family: 'inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.button-with-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.button-icon {
+  position: absolute;
+  left: 15px;
+  width: 24px !important;
+  height: 24px !important;
+  z-index: 10;
+}
+
+.button-with-icon button {
+  padding-left: 25px;
+}
+
 @media only screen and (max-width: 576px) {
-
-
   .bc-title {
     font-size: 32px;
     line-height: 40px;

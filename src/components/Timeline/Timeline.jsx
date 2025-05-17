@@ -14,7 +14,7 @@ function Timeline() {
             <div className="item item6">
                 <p className="circle-btn">
                     {timeline6}
-                    <Button type="header" text="Kontakt" link="#footer" />
+                    <Button type="header" text="Kontakt" link="#contact" />
                 </p>
             </div>
 
