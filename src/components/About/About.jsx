@@ -8,7 +8,7 @@ function About() {
         <about>
             <div className="container">
             <iframe
-                    src="https://www.youtube.com/embed/FEpKUCXNSVo"
+                    src="https://www.youtube.com/embed/peVK1R-WUw4"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
