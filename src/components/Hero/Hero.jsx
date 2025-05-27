@@ -10,7 +10,7 @@ function Hero() {
             <div className="container">
                 <div className="left">
                     <Button type="status" text="● Nyní k dispozici" />
-                    <Title name="Tvoříme výkonnostní grafický design" color="white" />
+                    <Title name={<>Reklamní kampaně od nápadu...<br />...po realizaci</>} color="white" />
                     <Button className="btn-main" type="header" text="Na čem pracujeme" link="#projects" />
                 </div>
                 <div className="identity">
