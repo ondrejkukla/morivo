@@ -14,7 +14,7 @@ function About() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                 />
-                <Subtitle text="Tvorba reklamních kampaní od nápadu po realizaci" color="black" />
+                <Subtitle text="Koordinujeme reklamní kampaně a tvoříme kompletní podklady k nasazení" color="black" />
                 <div className="badges">
                     <Badge text="Kreativní výkonnostní kampaně" />
                     <Badge text="Bannery" />
