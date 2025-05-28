@@ -6,6 +6,7 @@
   width: fit-content;
   height: fit-content;
   border-radius: 235px;
+  padding-bottom: 20px;
 }
 
 .business-card__image img {

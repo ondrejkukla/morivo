@@ -4,7 +4,7 @@ import Example from "../Example/Example";
 import Feedback from "../Feedback/Feedback";
 import Button from "../Button/Button";
 import {
-    fitmeal, mlsne_kornoutky, mlsne_kornoutky_small, miner, medarek, alarm, inowatti, ozdob_dort, my_prom, dron, izzi, pekarstvi_makovec_small, natu, natu_small, primavent, beauty_manifesto, miband, vinisto
+bushcraft, ozdob_dort_small, fitmeal, mlsne_kornoutky, mlsne_kornoutky_small, nandej, pure_rituals, miner, medarek, ozdob_dort, natu, natu_small, primavent, beauty_manifesto, miband, vinisto
 } from "../../assets/projects";
 import {
     feedback1, feedback2, feedback3, feedback4, feedback5, sign1, sign2, sign3, sign4, sign5
@@ -23,25 +23,22 @@ function Projects() {
                     <div className="project-2"> <Example img={fitmeal} link="fitmeal" /></div>
                     <div className="project-3"> <Example img={mlsne_kornoutky} link="mlsne_kornoutky" /></div>
                     <div className="project-3-small"> <Example img={mlsne_kornoutky_small} link="mlsne_kornoutky" /></div>
-                    <div className="project-4"> <Example img={miner} link="miner" /></div>
+                    <div className="project-4"> <Example img={nandej} link="nandej" /></div>
                     <div className="feedback-5"> <Feedback text={feedback2} signature={sign2} center="true" /></div>
-                    <div className="project-6"> <Example img={medarek} link="medarek" /></div>
-                    <div className="project-7"> <Example img={alarm} link="alarm" /></div>
+                    <div className="project-6"> <Example img={pure_rituals} link="pure_rituals" /></div>
+                    <div className="project-7"> <Example img={vinisto} link="vinisto" /></div>
                     <div className="feedback-8"> <Feedback text={feedback3} signature={sign3} center="true" /></div>
-                    <div className="project-9"> <Example img={inowatti} link="inowatti" /></div>
-                    <div className="project-10"> <Example img={ozdob_dort} link="ozdob_dort" /></div>
-                    <div className="project-10-small"> <Example img={pekarstvi_makovec_small} /></div>
-                    <div className="project-11"> <Example img={my_prom} link="my_prom" /></div>
-                    <div className="feedback-19"> <Feedback text={feedback4} signature={sign4} center="false" /></div>
-                    <div className="feedback-20"> <Feedback text={feedback5} signature={sign5} center="false" /></div>
-                    <div className="project-12"> <Example img={dron} link="dron" /></div>
-                    <div className="project-13"> <Example img={izzi} link="izzy" /></div>
-                    <div className="project-14"> <Example img={natu} link="natu" /></div>
-                    <div className="project-14-small"> <Example img={natu_small} link="natu" /></div>
-                    <div className="project-15"> <Example img={primavent} link="primavent" /></div>
-                    <div className="project-16"> <Example img={beauty_manifesto} link="beauty_manifesto" /></div>
-                    <div className="project-17"> <Example img={miband} link="miband" /></div>
-                    <div className="project-18"> <Example img={vinisto} link="vinisto" /></div>
+                    <div className="project-9"> <Example img={miner} link="miner" /></div>
+                    <div className="project-10"> <Example img={natu} link="natu" /></div>
+                    <div className="project-10-small"> <Example img={beauty_manifesto} link="beauty_manifesto" /></div>
+                    <div className="project-11"> <Example img={medarek} link="medarek" /></div>
+                    <div className="feedback-18"> <Feedback text={feedback4} signature={sign4} center="false" /></div>
+                    <div className="feedback-19"> <Feedback text={feedback5} signature={sign5} center="false" /></div>
+                    <div className="feedback-20"> <Feedback text={"Parťáci, ne jen dodavatel. Mluvíme na rovinu, sliby plníme i s extra nápady. Nevíme? Ptáme se. Něco se pokazí? Přiznáme chybu a řešíme. Proto s námi partneři spolupracují dlouhodobě."} signature={"Vojtěch Moric - Kapitán kreativního týmu morivo"} center="false" /></div>
+                    <div className="project-12"> <Example img={miband} link="miband" /></div>
+                    <div className="project-14"> <Example img={ozdob_dort} link="ozdob_dort" /></div>
+                    <div className="project-14-small"> <Example img={ozdob_dort_small} link="ozdob_dort" /></div>
+                    <div className="project-15"> <Example img={bushcraft} link="bushcraft" /></div>
                 </div>
                 <Button
                     type="header"
