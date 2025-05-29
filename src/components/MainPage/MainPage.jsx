@@ -5,6 +5,7 @@ import Slider from '../Slider/Slider';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import We from '../We/We';
+import TeamPhoto from '../TeamPhoto/TeamPhoto';
 import Benefits from '../Benefits/Benefits';
 import Faq from '../Faq/Faq';
 import ContactForm from '../ContactForm/ContactForm';
@@ -19,6 +20,7 @@ function MainPage() {
       <About />
       <Projects />
       <We />
+      <TeamPhoto />
       <Benefits />
       <Faq />
       <ContactForm />
