@@ -17,49 +17,38 @@ function Button(props) {
         });
     });
 
-    let type;
-    let buttonContent
-
     // eslint-disable-next-line react/prop-types
     switch (props.type) {
         case 'header':
-            buttonContent = (
+            return (
                 <button className="header" onClick={props.onClick}>
                     <a href={props.link} target="_blank" rel="noreferrer">{props.text} </a>
                 </button>
             );
-            break;
         case 'status':
-            buttonContent = (
+            return (
                 <button className="status" onClick={props.onClick}>
                     <a href={props.link} target="_blank" rel="noreferrer">{props.text} </a>
                 </button>
             );
-            break;
         case 'back':
-            buttonContent = (
+            return (
                 <button className="back" onClick={props.onClick}>
                     <a href={props.link}>{props.text} </a>
                 </button>
             );
-            break;
         case 'example':
-            type = 'example';
-            buttonContent = (
+            return (
                 <Link to={props.link} />
             );
-            break;
 
         default:
-            type = '';
+            return (
+                <button className={props.type} onClick={props.onClick}>
+                    <a href={props.link} target="_blank" rel="noreferrer">{props.text} </a>
+                </button>
+            );
     }
-
-    return (
-        // eslint-disable-next-line react/prop-types
-        <button className={props.type} onClick={props.onClick}>
-            <a href={props.link}>{props.text} </a>
-        </button>
-    )
 }
 
 export default Button;
