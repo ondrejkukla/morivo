@@ -17,7 +17,7 @@ function Button(props) {
         });
     });
 
-    // eslint-disable-next-line react/prop-types
+     
     switch (props.type) {
         case 'header':
             return (

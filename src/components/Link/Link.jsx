@@ -17,7 +17,7 @@ function Link(props) {
     });
 
     return (
-        // eslint-disable-next-line react/prop-types
+         
         <a href={props.link} className="nav-link"> {props.text} </a>
     )
 }
