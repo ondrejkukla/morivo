@@ -12,11 +12,14 @@ we div.container {
     display: flex;
     flex-direction: row;
     width: 1280px;
+    margin: 0 auto;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 96px;
     padding-bottom: 48px;
     overflow: hidden;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .we-text-block {
@@ -25,11 +28,12 @@ we div.container {
     min-width: 505px;
     height: fit-content;
     gap: 28px;
+    text-align: center;
 }
 
 div.we-text-block>p {
     width: 88%;
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
 }
 
@@ -65,6 +69,7 @@ div.we-text-block>p {
 @media only screen and (max-width: 1440px) {
     we div.container {
         width: 1040px;
+        margin: 0 auto;
     }
     
     .team-photo-section {
@@ -75,6 +80,7 @@ div.we-text-block>p {
 @media only screen and (max-width: 1200px) {
     we div.container {
         width: 832px;
+        margin: 0 auto;
     }
 
     .timeline-cont {
@@ -98,6 +104,7 @@ div.we-text-block>p {
 
     div.we-text-block>p {
         width: 100%;
+        margin: 0 auto;
     }
     
     we div.container {
@@ -105,6 +112,7 @@ div.we-text-block>p {
         align-items: center;
         justify-content: center;
         width: 688px;
+        margin: 0 auto;
         padding-left: 40px;
         padding-right: 40px;
     }
@@ -118,6 +126,7 @@ div.we-text-block>p {
     
     we div.container {
         width: 496px;
+        margin: 0 auto;
         padding-left: 40px;
         padding-right: 40px;
     }
@@ -131,6 +140,7 @@ div.we-text-block>p {
     
     we div.container {
         width: 337px;
+        margin: 0 auto;
         padding-left: 23px;
         padding-right: 23px;
     }
