@@ -8,7 +8,7 @@ import "./We.css";
 function We() {
     return (
         <we id="we">
-            <div className="container">
+            <div className="container" style={{ overflow: "visible" }}>
                 <div className="we-text-block">
                     <Title color="white" name="Kdo jsme?" />
                     <div className="whitespace"></div>

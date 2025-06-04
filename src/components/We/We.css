@@ -42,7 +42,7 @@ div.we-text-block>p {
     width: fit-content;
     height: fit-content;
     right: 296px;
-    
+    margin-right: -10rem;
 }
 
 .whitespace {
@@ -84,6 +84,7 @@ div.we-text-block>p {
     }
 
     .timeline-cont {
+        margin-right: 0;
         right: 400px;
     }
     
@@ -94,6 +95,7 @@ div.we-text-block>p {
 
 @media only screen and (max-width: 992px) {
     .timeline-cont {
+        margin-right: 0;
         position: static;
     }
 
@@ -154,6 +156,7 @@ div.we-text-block>p {
     }
 
     .timeline-cont {
+        margin-right: 0;
         margin-top: -50px;
     }
     
