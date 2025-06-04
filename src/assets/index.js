@@ -84,7 +84,7 @@ const links =
     inowatti: "https://drive.google.com/file/d/1b9nBRAprOfwhbnJ9FyE39_GFxsn8kypp/preview",
     izzy: "https://drive.google.com/file/d/1rn7LcjdUFjrLbGT-Y8ohjJpN4qn1zQp1/preview",
     medarek: "https://drive.google.com/file/d/1P_WjOY5HS659owztPXce4Dh2VnQKyAkN/preview",
-    mlsne_kornoutky: "https://drive.google.com/file/d/1w9h7USI_9NJhChBY0DY4CNm6cr3XXf8j/preview",
+    mlsne_kornoutky: "https://drive.google.com/file/d/1XuhIFIrE7CrZwWE8XVaPq_AOwp3ux4S2/view?usp=sharing",
     my_prom: "https://drive.google.com/file/d/12B0RMR3-5pJWnJicOiBukBqHgC0VftG_/preview",
     natu: "https://drive.google.com/file/d/1-iekOGdhGrF9jopJnjGCcOGIiPX0INkm/preview",
     ozdob_dort: "https://drive.google.com/file/d/1qbGGwMzU-7gvtgydzKuR818vvRdKS-1M/preview",

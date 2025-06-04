@@ -20,8 +20,8 @@ function Projects() {
                 <div className="grid-projects">
                     <div className="feedback-1"> <Feedback text={feedback1} signature={sign1} center="false" /></div>
                     <div className="project-2"> <Example img={fitmeal} link="https://drive.google.com/file/d/1l0ieasRgOHpFlpjCOknmmIx3z7R9grEK/view?usp=drive_link" /></div>
-                    <div className="project-3"> <Example img={mlsne_kornoutky} link="https://drive.google.com/file/d/1G-GEMUU1NuZemgsi7orYM-zTmOtnblvj/view?usp=drive_link" /></div>
-                    <div className="project-3-small"> <Example img={mlsne_kornoutky_small} link="https://drive.google.com/file/d/1G-GEMUU1NuZemgsi7orYM-zTmOtnblvj/view?usp=drive_link" /></div>
+                    <div className="project-3"> <Example img={mlsne_kornoutky} link="https://drive.google.com/file/d/1XuhIFIrE7CrZwWE8XVaPq_AOwp3ux4S2/view?usp=sharing" /></div>
+                    <div className="project-3-small"> <Example img={mlsne_kornoutky_small} link="https://drive.google.com/file/d/1XuhIFIrE7CrZwWE8XVaPq_AOwp3ux4S2/view?usp=sharing" /></div>
                     <div className="project-4"> <Example img={nandej} link="https://drive.google.com/file/d/1U9ItQqjGYBblOUDXC-r2iT5A7oYxl5xH/view?usp=drive_link" /></div>
                     <div className="feedback-5"> <Feedback text={feedback2} signature={sign2} center="true" /></div>
                     <div className="project-6"> <Example img={pure_rituals} link="https://drive.google.com/file/d/1jeVz7J1MJN3Q29voRb8pm7G8HFyRspY6/view?usp=drive_link" /></div>
